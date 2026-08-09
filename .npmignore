@@ -1,0 +1,10 @@
+src/
+*.ts
+!dist/**/*.d.ts
+tsconfig.json
+tsup.config.ts
+.gitignore
+node_modules/
+gnd.js
+dsd.js
+districts.js
