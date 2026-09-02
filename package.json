@@ -1,7 +1,7 @@
 {
   "name": "sl-gnd-dsd-districts",
-  "version": "1.0.0",
-  "description": "Complete Sri Lanka administrative divisions data — Districts (25), Divisional Secretariat Divisions (DSDs ~332), and Grama Niladhari Divisions (GNDs ~14,000+) with search and lookup utilities. Trilingual support (English, Sinhala, Tamil).",
+  "version": "2.0.0",
+  "description": "Complete, official Sri Lanka administrative divisions data — Districts (25), Divisional Secretariat Divisions (DSDs 340), and Grama Niladhari Divisions (GNDs 14,020) with official codes (LIFe, GN, MPA) and trilingual support (English, Sinhala, Tamil).",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
