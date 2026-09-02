@@ -204,12 +204,6 @@ const results = searchGND("Kandy");
 
 ---
 
-## Data Source
-
-Data is sourced from the official **Ministry of Home Affairs (MOHA)** Sri Lanka Life Code Database (`http://moha.gov.lk:8090/lifecode/gn_list`).
-
----
-
 ## License
 
 MIT © [Hashan Lakshitha](https://github.com/hashan-lakshitha)
