@@ -1,13 +1,17 @@
 # sl-gnd-dsd-districts
 
-Complete Sri Lanka administrative divisions data with search and lookup utilities.
+Complete, official Sri Lanka administrative divisions data library sourced from the **Ministry of Home Affairs (MOHA)**.
 
 - 🏛️ **25 Districts** — Trilingual names (English, සිංහල, தமிழ்)
-- 🗺️ **332 DSDs** — Divisional Secretariat Divisions
-- 📍 **14,000+ GNDs** — Grama Niladhari Divisions
-- 🔍 **Search & Filter** — Find by name, district, or province
-- 📦 **TypeScript** — Full type definitions included
-- ⚡ **Dual Format** — Works with ESM & CommonJS
+- 🗺️ **340 DSDs** — Divisional Secretariat Divisions (Trilingual)
+- 📍 **14,020 GNDs** — Grama Niladhari Divisions (Trilingual)
+- 🏷️ **Official Codes** — LIFe Code, GN Code & MPA Code
+- 🔗 **Full Hierarchy** — Province → District → DSD → GND
+- 🔍 **Search & Filter** — Fast search by trilingual name, code, DSD, district, or province
+- 📦 **TypeScript Ready** — Comprehensive type definitions included
+- ⚡ **Dual Format** — Works with ESM (`import`) & CommonJS (`require`)
+
+---
 
 ## Installation
 
@@ -15,133 +19,191 @@ Complete Sri Lanka administrative divisions data with search and lookup utilitie
 npm install sl-gnd-dsd-districts
 ```
 
+---
+
 ## Quick Start
 
 ```typescript
 import {
   getDistricts,
-  getDSDsByDistrict,
-  getGNDsByDistrict,
-  searchGND,
   getDistrictByName,
+  getDSDsByDistrict,
+  getGNDsByDSD,
+  getGNDByLifeCode,
+  getGNDByCode,
+  searchGND,
+  getDSDHierarchy,
   getStats,
 } from "sl-gnd-dsd-districts";
 
-// Get all districts
-const allDistricts = getDistricts();
-console.log(allDistricts.length); // 25
+// Overall stats
+console.log(getStats());
+// { provinces: 9, districts: 25, dsds: 340, gnds: 14020 }
 
-// Find a district (supports Sinhala & Tamil too!)
-const colombo = getDistrictByName("Colombo");
+// 1. Districts (Trilingual)
+const colombo = getDistrictByName("Colombo"); // or getDistrictByName("කොළඹ")
 console.log(colombo?.nameSi); // "කොළඹ"
-console.log(colombo?.nameTa); // "கொழும்பு"
+console.log(colombo?.nameTa); // "கொழும்பு"
 
-// Get DSDs in a district
+// 2. DSDs in a district
 const colomboDSDs = getDSDsByDistrict("Colombo");
 console.log(colomboDSDs.length); // 13
 
-// Get GNDs in a district
-const colomboGNDs = getGNDsByDistrict("Colombo");
-console.log(colomboGNDs.length); // 500+
+// 3. GNDs in a DSD
+const kaduwelaGNDs = getGNDsByDSD("Kaduwela");
+console.log(kaduwelaGNDs.length); // 57
 
-// Search GNDs by name
+// 4. Lookup GND by official codes
+const gndByLife = getGNDByLifeCode("1-1-03-005");
+console.log(gndByLife?.nameEn); // "Sammanthranapura"
+console.log(gndByLife?.nameSi); // "සම්මන්ත්‍රණපුර"
+
+// Lookup by GN Code or MPA Code
+const gndByMpa = getGNDByCode("480A");
+console.log(gndByMpa?.nameEn); // "Dedigamuwa"
+
+// 5. Search GNDs by partial name or code (English / Sinhala / Tamil)
 const results = searchGND("Malabe");
 console.log(results);
 // [
-//   { fid: 94, name: "Malabe North", district: "Colombo" },
-//   { fid: 105, name: "Malabe East", district: "Colombo" },
-//   { fid: 106, name: "Malabe West", district: "Colombo" }
+//   { lifeCode: "1-1-09-070", gnCode: "070", nameEn: "Malabe North", nameSi: "මාළ‍‍ෙඔ උතුර", dsdEn: "Kaduwela", districtEn: "Colombo" },
+//   { lifeCode: "1-1-09-125", gnCode: "125", nameEn: "Malabe East", nameSi: "මාලබේ නැගෙනහිර", dsdEn: "Kaduwela", districtEn: "Colombo" },
+//   { lifeCode: "1-1-09-130", gnCode: "130", nameEn: "Malabe West", nameSi: "මාල‍බේ බටහිර", dsdEn: "Kaduwela", districtEn: "Colombo" }
 // ]
 
-// Overall stats
-console.log(getStats());
-// { provinces: 9, districts: 25, dsds: 332, gnds: 14022 }
+// 6. Full DSD Hierarchy
+const kaduwelaHierarchy = getDSDHierarchy("Kaduwela");
+console.log(kaduwelaHierarchy?.gndCount); // 57
 ```
+
+---
 
 ## API Reference
 
-### Raw Data
+### Raw Data Exports
 
 | Export | Type | Description |
 |--------|------|-------------|
-| `districts` | `District[]` | All 25 districts |
-| `dsds` | `DSD[]` | All DSDs |
-| `gnds` | `GND[]` | All GNDs |
-| `PROVINCES` | `readonly string[]` | 9 province names |
+| `districts` | `District[]` | All 25 districts with trilingual names |
+| `dsds` | `DSD[]` | All 340 DSDs with trilingual names and parent relationships |
+| `gnds` | `GND[]` | All 14,020 GNDs with trilingual names, codes, DSD and district mapping |
+| `provinces` | `ProvinceInfo[]` | All 9 provinces with trilingual names |
+| `PROVINCES` | `readonly string[]` | 9 province names in English |
+
+---
 
 ### District Functions
 
 | Function | Returns | Description |
 |----------|---------|-------------|
 | `getDistricts()` | `District[]` | All 25 districts |
-| `getDistrictByName(name)` | `District \| undefined` | Find by name (EN/SI/TA) |
-| `getDistrictsByProvince(province)` | `District[]` | Filter by province |
-| `searchDistricts(query)` | `District[]` | Partial name search |
+| `getDistrictByName(name)` | `District \| undefined` | Find by name (EN / SI / TA) |
+| `getDistrictsByProvince(province)` | `District[]` | Filter districts by province |
+| `searchDistricts(query)` | `District[]` | Partial name search (EN / SI / TA) |
 
-### DSD Functions
+---
 
-| Function | Returns | Description |
-|----------|---------|-------------|
-| `getDSDs()` | `DSD[]` | All DSDs |
-| `getDSDsByDistrict(district)` | `DSD[]` | Filter by district |
-| `getDSDsByProvince(province)` | `DSD[]` | Filter by province |
-| `getDSDByName(name)` | `DSD \| undefined` | Find by exact name |
-| `searchDSD(query)` | `DSD[]` | Partial name search |
-
-### GND Functions
+### DSD (Divisional Secretariat Division) Functions
 
 | Function | Returns | Description |
 |----------|---------|-------------|
-| `getGNDs()` | `GND[]` | All GNDs |
-| `getGNDsByDistrict(district)` | `GND[]` | Filter by district |
-| `getGNDByName(name)` | `GND \| undefined` | Find by exact name |
-| `searchGND(query)` | `GND[]` | Partial name search |
-| `getGNDsGroupedByDistrict()` | `Record<string, GND[]>` | Grouped by district |
+| `getDSDs()` | `DSD[]` | All 340 DSDs |
+| `getDSDByName(name, districtName?)` | `DSD \| undefined` | Find by exact name (EN / SI / TA) |
+| `getDSDsByDistrict(district)` | `DSD[]` | Filter DSDs by district (EN / SI / TA) |
+| `getDSDsByProvince(province)` | `DSD[]` | Filter DSDs by province (EN / SI / TA) |
+| `searchDSD(query)` | `DSD[]` | Partial name search (EN / SI / TA) |
 
-### Cross-Level Functions
+---
+
+### GND (Grama Niladhari Division) Functions
 
 | Function | Returns | Description |
 |----------|---------|-------------|
-| `getDistrictHierarchy(name)` | `{ district, dsds, gndCount }` | Full hierarchy lookup |
-| `getStats()` | `{ provinces, districts, dsds, gnds }` | Summary counts |
-| `getProvinces()` | `readonly string[]` | All 9 province names |
+| `getGNDs()` | `GND[]` | All 14,020 GNDs |
+| `getGNDByName(name, districtOrDSD?)` | `GND \| undefined` | Find by exact name (EN / SI / TA) |
+| `getGNDByLifeCode(lifeCode)` | `GND \| undefined` | Find by official LIFe Code (e.g. `1-1-03-005`) |
+| `getGNDByCode(code, districtOrDSD?)` | `GND \| undefined` | Find by GN Code, LIFe Code, or MPA Code |
+| `getGNDsByDSD(dsd, district?)` | `GND[]` | Filter GNDs by DSD (EN / SI / TA) |
+| `getGNDsByDistrict(district)` | `GND[]` | Filter GNDs by district (EN / SI / TA) |
+| `getGNDsByProvince(province)` | `GND[]` | Filter GNDs by province (EN / SI / TA) |
+| `searchGND(query)` | `GND[]` | Partial search across EN / SI / TA names & codes |
+| `getGNDsGroupedByDistrict()` | `Record<string, GND[]>` | GNDs grouped by district |
+| `getGNDsGroupedByDSD(districtName?)` | `Record<string, GND[]>` | GNDs grouped by DSD |
 
-## Types
+---
+
+### Hierarchy & Stats Functions
+
+| Function | Returns | Description |
+|----------|---------|-------------|
+| `getDistrictHierarchy(name)` | `{ district, dsds, gndCount } \| undefined` | Full district hierarchy lookup |
+| `getDSDHierarchy(dsdName, districtName?)` | `{ dsd, gnds, gndCount } \| undefined` | Full DSD hierarchy lookup with all GNDs |
+| `getProvinces()` | `readonly string[]` | All 9 province names in English |
+| `getProvincesInfo()` | `ProvinceInfo[]` | All 9 provinces with trilingual names |
+| `getStats()` | `{ provinces, districts, dsds, gnds }` | Summary counts (9, 25, 340, 14020) |
+
+---
+
+## TypeScript Interfaces
 
 ```typescript
 interface District {
   id: number;
-  nameEn: string;    // "Colombo"
-  nameSi: string;    // "කොළඹ"
-  nameTa: string;    // "கொழும்பு"
-  provinceEn: string; // "Western"
-  provinceSi: string; // "බස්නාහිර"
-  provinceTa: string; // "மேல்"
+  nameEn: string;      // "Colombo"
+  nameSi: string;      // "කොළඹ"
+  nameTa: string;      // "கொழும்பு"
+  provinceEn: string;  // "Western"
+  provinceSi: string;  // "බස්නාහිර"
+  provinceTa: string;  // "மேற்கு"
 }
 
 interface DSD {
-  fid: number;
-  name: string;      // "Kaduwela"
-  district: string;  // "Colombo"
-  province: string;  // "Western"
+  id: number;
+  nameEn: string;      // "Kaduwela"
+  nameSi: string;      // "කඩුවෙල"
+  nameTa: string;      // "கடுவெ‍லை"
+  districtEn: string;  // "Colombo"
+  districtSi: string;  // "කොළඹ"
+  districtTa: string;  // "கொழும்பு"
+  provinceEn: string;  // "Western"
+  provinceSi: string;  // "බස්නාහිර"
+  provinceTa: string;  // "மேற்கு"
 }
 
 interface GND {
-  fid: number;
-  name: string;      // "Malabe North"
-  district: string;  // "Colombo"
+  id: number;
+  lifeCode: string;    // "1-1-09-070" (Official LIFe Code)
+  gnCode: string;      // "070" (GN Division Number)
+  mpaCode?: string;    // "476B" (Ministry of Public Administration Code)
+  nameEn: string;      // "Malabe North"
+  nameSi: string;      // "මාළ‍‍ෙඔ උතුර"
+  nameTa: string;      // "மால‍பே வடக்கு"
+  dsdEn: string;       // "Kaduwela"
+  dsdSi: string;       // "කඩුවෙල"
+  dsdTa: string;       // "கடுவெ‍லை"
+  districtEn: string;  // "Colombo"
+  districtSi: string;  // "කොළඹ"
+  districtTa: string;  // "கொழும்பு"
+  provinceEn: string;  // "Western"
+  provinceSi: string;  // "බස්නාහිර"
+  provinceTa: string;  // "மேற்கு"
 }
 ```
+
+---
 
 ## CommonJS Usage
 
 ```javascript
-const { getDistricts, searchGND } = require("sl-gnd-dsd-districts");
+const { getDistricts, getGNDsByDSD, searchGND } = require("sl-gnd-dsd-districts");
 
 const districts = getDistricts();
+const kaduwelaGNDs = getGNDsByDSD("Kaduwela");
 const results = searchGND("Kandy");
 ```
 
+---
+
 ## License
 
-MIT
+MIT © [Hashan Lakshitha](https://github.com/hashan-lakshitha)

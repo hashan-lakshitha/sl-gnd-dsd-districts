@@ -1,320 +1,291 @@
-import type { DSD } from "../types";
-
-export const dsds: DSD[] = [
+[
   {
-    "id": 1,
     "nameEn": "Colombo",
     "nameSi": "කොළඹ",
     "nameTa": "கொழும்பு",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 2,
     "nameEn": "Kolonnawa",
     "nameSi": "කොළොන්නාව",
-    "nameTa": "கொலண்ணா‍வை",
+    "nameTa": "கொ‎லண்ணா‍வை",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 3,
     "nameEn": "Kaduwela",
     "nameSi": "කඩුවෙල",
-    "nameTa": "கடுவெ‍லை",
+    "nameTa": "கடு‎வெ‍லை",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 4,
     "nameEn": "Homagama",
     "nameSi": "හෝමාගම",
     "nameTa": "ஹோமாகம",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 5,
     "nameEn": "Hanwella",
     "nameSi": "හංවැල්ල",
-    "nameTa": "ஹங்வெல்‍லை",
+    "nameTa": "ஹங்‎வெல்‍லை",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 6,
     "nameEn": "Padukka",
     "nameSi": "පාදුක්ක",
     "nameTa": "பாதுக்‍கை",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 7,
     "nameEn": "Maharagama",
     "nameSi": "මහරගම",
     "nameTa": "மஹரகம",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 8,
     "nameEn": "Sri Jayawardanapura Kotte",
     "nameSi": "ශ්‍රී ජයවර්ධනපුර කෝට්ටේ",
     "nameTa": "ஸ்ரீ ஜயவர்தணபுர ‍கோட்‍டை",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 9,
     "nameEn": "Thimbirigasyaya",
     "nameSi": "තිඹිරිගස්යාය",
     "nameTa": "திம்பிரிகஸ்யா‍யை",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 10,
     "nameEn": "Dehiwala-Mount Lavinia",
     "nameSi": "දෙහිවල -ගල්කිස්ස",
     "nameTa": "தெஹிவளை-கல்கிஸ்‍ஸ",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 11,
     "nameEn": "Ratmalana",
     "nameSi": "රත්මලාන",
     "nameTa": "இரத்மழா‍ணை",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 12,
     "nameEn": "Moratuwa",
     "nameSi": "මොරටුව",
     "nameTa": "மொரட்டு‍வை",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 13,
     "nameEn": "Kesbewa",
     "nameSi": "කැස්බෑව",
-    "nameTa": "கெஸ்‍‍பே‍வை",
+    "nameTa": "‎கெஸ்‍‍பே‍வை",
     "districtEn": "Colombo",
     "districtSi": "කොළඹ",
-    "districtTa": "கொழும்பு",
+    "districtTa": "‎கொழும்பு",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 14,
     "nameEn": "Negombo",
     "nameSi": "මීගමුව",
     "nameTa": "நீர்கொழும்பு",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 15,
     "nameEn": "Katana",
     "nameSi": "කටාන",
     "nameTa": "கட்டான",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 16,
     "nameEn": "Divulapitiya",
     "nameSi": "දිවුලපිටිය",
     "nameTa": "திவுலப்பிட்டிய",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 17,
     "nameEn": "Mirigama",
     "nameSi": "මීරිගම",
     "nameTa": "மீரிகம",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 18,
     "nameEn": "Minuwangoda",
     "nameSi": "මිනුවන්ගොඩ",
-    "nameTa": "மினுவன்கொ‍ட",
+    "nameTa": "மினுவ‎‎ன்கொ‍ட",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 19,
     "nameEn": "Wattala",
     "nameSi": "වත්තල",
     "nameTa": "வத்தளை",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 20,
     "nameEn": "Ja-Ela",
     "nameSi": "ජා-ඇල",
     "nameTa": "ஜா-எல",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 21,
     "nameEn": "Gampaha",
     "nameSi": "ගම්පහ",
     "nameTa": "கம்பஹா",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 22,
     "nameEn": "Attanagalla",
     "nameSi": "අත්තනගල්ල",
     "nameTa": "அத்தணகல்‍லை",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 23,
     "nameEn": "Dompe",
     "nameSi": "දොම්පෙ",
-    "nameTa": "தொம்‍பே",
+    "nameTa": "‎தொம்‍பே",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 24,
     "nameEn": "Mahara",
     "nameSi": "මහර",
     "nameTa": "மஹற",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 25,
     "nameEn": "Kelaniya",
     "nameSi": "කැළණිය",
     "nameTa": "களணி",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 26,
     "nameEn": "Biyagama",
     "nameSi": "බියගම",
     "nameTa": "பியக‍ம",
     "districtEn": "Gampaha",
     "districtSi": "ගම්පහ",
-    "districtTa": "கம்‍‍ப‍‍ஹா",
+    "districtTa": "கம்‍‍‎ப‍‍ஹா",
     "provinceEn": "Western",
     "provinceSi": "බස්නාහිර",
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 27,
     "nameEn": "Panadura",
     "nameSi": "පානදුර",
     "nameTa": "பாணத்து‍றை",
@@ -326,7 +297,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 28,
     "nameEn": "Bandaragama",
     "nameSi": "බණ්ඩාරගම",
     "nameTa": "பண்டாரக‍மை",
@@ -338,10 +308,9 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 29,
     "nameEn": "Horana",
     "nameSi": "හොරණ",
-    "nameTa": "ஹொரணை",
+    "nameTa": "‎ஹொரணை",
     "districtEn": "Kalutara",
     "districtSi": "කළුතර",
     "districtTa": "களுத்து‍றை",
@@ -350,7 +319,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 30,
     "nameEn": "Ingiriya",
     "nameSi": "ඉංගිරිය",
     "nameTa": "இங்கிரிய",
@@ -362,7 +330,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 31,
     "nameEn": "Bulathsinhala",
     "nameSi": "බුලත්සිංහල",
     "nameTa": "புளத்சிங்கள",
@@ -374,10 +341,9 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 32,
     "nameEn": "Madurawala",
     "nameSi": "මදුරාවල",
-    "nameTa": "மதுராவெள",
+    "nameTa": "மதுரா‎வெள",
     "districtEn": "Kalutara",
     "districtSi": "කළුතර",
     "districtTa": "களுத்து‍றை",
@@ -386,7 +352,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 33,
     "nameEn": "Millaniya",
     "nameSi": "මිල්ලනිය",
     "nameTa": "மில்லணிய",
@@ -398,7 +363,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 34,
     "nameEn": "Kalutara",
     "nameSi": "කළුතර",
     "nameTa": "களுத்து‍றை",
@@ -410,7 +374,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 35,
     "nameEn": "Beruwala",
     "nameSi": "බේරුවල",
     "nameTa": "‍‍பேருவ‍ளை",
@@ -422,10 +385,9 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 36,
     "nameEn": "Dodangoda",
     "nameSi": "දොඩම්ගොඩ",
-    "nameTa": "தொடங்கொட",
+    "nameTa": "‎தொடங்கொட",
     "districtEn": "Kalutara",
     "districtSi": "කළුතර",
     "districtTa": "களுத்து‍றை",
@@ -434,7 +396,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 37,
     "nameEn": "Mathugama",
     "nameSi": "මතුගම",
     "nameTa": "மத்துக‍மை",
@@ -446,7 +407,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 38,
     "nameEn": "Agalawatta",
     "nameSi": "අගලවත්ත",
     "nameTa": "அகலவத்‍தை",
@@ -458,7 +418,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 39,
     "nameEn": "Palindanuwara",
     "nameSi": "පාලින්ද නුවර",
     "nameTa": "பாலிந்தநுவர",
@@ -470,7 +429,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 40,
     "nameEn": "Walallavita",
     "nameSi": "වලල්ලාවිට",
     "nameTa": "வளள்ளாவிட்ட",
@@ -482,7 +440,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மேற்கு"
   },
   {
-    "id": 41,
     "nameEn": "Thumpane",
     "nameSi": "තුම්පනේ",
     "nameTa": "தும்பணை‍",
@@ -494,7 +451,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 42,
     "nameEn": "Poojapitiya",
     "nameSi": "පුජාපිටිය",
     "nameTa": "பூஜாபிட்டிய",
@@ -506,7 +462,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 43,
     "nameEn": "Akurana",
     "nameSi": "අකුරණ",
     "nameTa": "அக்குர‍ணை",
@@ -518,7 +473,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 44,
     "nameEn": "Pathadumbara",
     "nameSi": "පාතදුම්බර",
     "nameTa": "பாத்ததும்ப‍ரை",
@@ -530,7 +484,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 45,
     "nameEn": "Panvila",
     "nameSi": "පන්විල",
     "nameTa": "பண்வில",
@@ -542,7 +495,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 46,
     "nameEn": "Udadumbara",
     "nameSi": "උඩදුම්බර",
     "nameTa": "உடதும்ப‍ரை",
@@ -554,7 +506,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 47,
     "nameEn": "Minipe",
     "nameSi": "මිණිපේ",
     "nameTa": "மினிப்பே",
@@ -566,10 +517,9 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 48,
     "nameEn": "Medadumbara",
     "nameSi": "මැදදුම්බර",
-    "nameTa": "மெததும்பர",
+    "nameTa": "‎மெததும்பர",
     "districtEn": "Kandy",
     "districtSi": "මහනුවර",
     "districtTa": "கண்டி",
@@ -578,7 +528,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 49,
     "nameEn": "Kundasale",
     "nameSi": "කුණ්ඩසාලෙ",
     "nameTa": "குண்டசா‍லை",
@@ -590,7 +539,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 50,
     "nameEn": "Kandy Four Gravets & Gangawata Korale",
     "nameSi": "මහනුවර කඩවත් සතර හා ගඟවටකොරළේ",
     "nameTa": "கண்டி கடவத்ஸதர, கங்கவட கோரலே",
@@ -602,7 +550,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 51,
     "nameEn": "Harispattuwa",
     "nameSi": "හාරිස්පත්තුව",
     "nameTa": "ஹரிஸ்பத்துவ",
@@ -614,7 +561,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 52,
     "nameEn": "Hatharaliyadda",
     "nameSi": "හතරලියැද්ද",
     "nameTa": "ஹதரலியத்த",
@@ -626,7 +572,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 53,
     "nameEn": "Yatinuwara",
     "nameSi": "යටිනුවර",
     "nameTa": "யட்டிநுவர",
@@ -638,7 +583,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 54,
     "nameEn": "Udunuwara",
     "nameSi": "උඩුනුවර *",
     "nameTa": "உடுநுவர",
@@ -650,10 +594,9 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 55,
     "nameEn": "Doluwa",
     "nameSi": "දොළුව",
-    "nameTa": "தொழுவ",
+    "nameTa": "‎தொழுவ",
     "districtEn": "Kandy",
     "districtSi": "මහනුවර",
     "districtTa": "கண்டி",
@@ -662,10 +605,9 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 56,
     "nameEn": "Pathahewaheta",
     "nameSi": "පාතහේවාහැට",
-    "nameTa": "பாத்த ஹேவாஹெட்ட",
+    "nameTa": "பாத்த ஹேவாஹெ‎ட்ட",
     "districtEn": "Kandy",
     "districtSi": "මහනුවර",
     "districtTa": "கண்டி",
@@ -674,10 +616,9 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 57,
     "nameEn": "Delthota",
     "nameSi": "දෙල්තොට",
-    "nameTa": "தெல்தொட்ட",
+    "nameTa": "‎தெல்‎தொட்ட",
     "districtEn": "Kandy",
     "districtSi": "මහනුවර",
     "districtTa": "கண்டி",
@@ -686,7 +627,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 58,
     "nameEn": "Udapalatha",
     "nameSi": "උඩපලාත",
     "nameTa": "உடபலாத்த",
@@ -698,7 +638,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 59,
     "nameEn": "Ganga Ihala Korale",
     "nameSi": "ගඟ ඉහළ කොරළේ",
     "nameTa": "கங்க இஹல கோறல",
@@ -710,7 +649,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 60,
     "nameEn": "Pasbage Korale",
     "nameSi": "පස්බාගේ කොරළේ",
     "nameTa": "பஸ்பா‍கே ‍கோற‍லே",
@@ -722,7 +660,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 61,
     "nameEn": "Galewela",
     "nameSi": "ගලේවෙල",
     "nameTa": "கலேவெல",
@@ -734,7 +671,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 62,
     "nameEn": "Dambulla",
     "nameSi": "දඹුල්ල",
     "nameTa": "தம்புல்ல",
@@ -746,7 +682,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 63,
     "nameEn": "Naula",
     "nameSi": "නාඋල",
     "nameTa": "நாஉல",
@@ -758,7 +693,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 64,
     "nameEn": "Pallepola",
     "nameSi": "පල්ලෙපොල",
     "nameTa": "பல்லெபொல",
@@ -770,7 +704,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 65,
     "nameEn": "Yatawatta",
     "nameSi": "යටවත්ත",
     "nameTa": "யடவத்த",
@@ -782,7 +715,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 66,
     "nameEn": "Matale",
     "nameSi": "මාතලේ",
     "nameTa": "மாத்தளை",
@@ -794,7 +726,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 67,
     "nameEn": "Ambanganga Korale",
     "nameSi": "අඹන්ගඟ කොරළේ",
     "nameTa": "அம்பங்கககோரலே",
@@ -806,7 +737,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 68,
     "nameEn": "Laggala-Pallegama",
     "nameSi": "ලග්ගල - පල්ලෙගම",
     "nameTa": "லக்கல - பல்லேகம",
@@ -818,7 +748,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 69,
     "nameEn": "Wilgamuwa",
     "nameSi": "විල්ගමුව",
     "nameTa": "வில்கமுவ",
@@ -830,7 +759,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 70,
     "nameEn": "Rattota",
     "nameSi": "රත්තොට",
     "nameTa": "ரத்தொட",
@@ -842,7 +770,6 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 71,
     "nameEn": "Ukuwela",
     "nameSi": "උකුවෙල",
     "nameTa": "உகுவெல",
@@ -854,130 +781,119 @@ export const dsds: DSD[] = [
     "provinceTa": "மத்திய"
   },
   {
-    "id": 72,
     "nameEn": "Kothmale (West)",
     "nameSi": "කොත්මලේ (බටහිර)",
     "nameTa": "கொத்மலை(மேற்கு)",
     "districtEn": "Nuwara Eliya",
     "districtSi": "නුවරඑළිය",
-    "districtTa": "நுவரெலியா",
+    "districtTa": "நுவ‎ரெலியா",
     "provinceEn": "Central",
     "provinceSi": "මධ්‍යම",
     "provinceTa": "மத்திய"
   },
   {
-    "id": 73,
     "nameEn": "Kothmale",
     "nameSi": "කොත්මලේ",
-    "nameTa": "கொத்ம‍லை",
+    "nameTa": "‎‎கொத்ம‍லை",
     "districtEn": "Nuwara Eliya",
     "districtSi": "නුවරඑළිය",
-    "districtTa": "நுவரெலியா",
+    "districtTa": "நுவ‎ரெலியா",
     "provinceEn": "Central",
     "provinceSi": "මධ්‍යම",
     "provinceTa": "மத்திய"
   },
   {
-    "id": 74,
     "nameEn": "Hanguranketha",
     "nameSi": "හඟුරන්කෙත",
-    "nameTa": "ஹங்குரங்கெத",
+    "nameTa": "ஹங்குரங்‎கெத",
     "districtEn": "Nuwara Eliya",
     "districtSi": "නුවරඑළිය",
-    "districtTa": "நுவரெலியா",
+    "districtTa": "நுவ‎ரெலியா",
     "provinceEn": "Central",
     "provinceSi": "මධ්‍යම",
     "provinceTa": "மத்திய"
   },
   {
-    "id": 75,
     "nameEn": "Mathurata",
     "nameSi": "මතුරට",
     "nameTa": "மதுரட்ட",
     "districtEn": "Nuwara Eliya",
     "districtSi": "නුවරඑළිය",
-    "districtTa": "நுவரெலியா",
+    "districtTa": "நுவ‎ரெலியா",
     "provinceEn": "Central",
     "provinceSi": "මධ්‍යම",
     "provinceTa": "மத்திய"
   },
   {
-    "id": 76,
     "nameEn": "Walapane",
     "nameSi": "වලපනේ",
     "nameTa": "வலப‍‍னே",
     "districtEn": "Nuwara Eliya",
     "districtSi": "නුවරඑළිය",
-    "districtTa": "நுவரெலியா",
+    "districtTa": "நுவ‎ரெலியா",
     "provinceEn": "Central",
     "provinceSi": "මධ්‍යම",
     "provinceTa": "மத்திய"
   },
   {
-    "id": 77,
     "nameEn": "Nildandahinna",
-    "nameSi": "නිල්දණ්ඩාහින්න",
+    "nameSi": "නිල්දණ්ඩාහින්න​",
     "nameTa": "நில்தன்தகின்ன",
     "districtEn": "Nuwara Eliya",
     "districtSi": "නුවරඑළිය",
-    "districtTa": "நுவரெலியா",
+    "districtTa": "நுவ‎ரெலியா",
     "provinceEn": "Central",
     "provinceSi": "මධ්‍යම",
     "provinceTa": "மத்திய"
   },
   {
-    "id": 78,
     "nameEn": "Thalawakale",
     "nameSi": "තලවකැලේ",
     "nameTa": "தலவகலே",
     "districtEn": "Nuwara Eliya",
     "districtSi": "නුවරඑළිය",
-    "districtTa": "நுவரெலியா",
+    "districtTa": "நுவ‎ரெலியா",
     "provinceEn": "Central",
     "provinceSi": "මධ්‍යම",
     "provinceTa": "மத்திய"
   },
   {
-    "id": 79,
     "nameEn": "Nuwara Eliya",
     "nameSi": "නුවර එළිය",
-    "nameTa": "நுவரெலியா",
+    "nameTa": "நுவ‎ரெலியா",
     "districtEn": "Nuwara Eliya",
     "districtSi": "නුවරඑළිය",
-    "districtTa": "நுவரெலியா",
+    "districtTa": "நுவ‎ரெலியா",
     "provinceEn": "Central",
     "provinceSi": "මධ්‍යම",
     "provinceTa": "மத்திய"
   },
   {
-    "id": 80,
     "nameEn": "Ambagamuwa",
     "nameSi": "අඹගමුව",
     "nameTa": "அம்பகமுவ",
     "districtEn": "Nuwara Eliya",
     "districtSi": "නුවරඑළිය",
-    "districtTa": "நுவரெலியா",
+    "districtTa": "நுவ‎ரெலியா",
     "provinceEn": "Central",
     "provinceSi": "මධ්‍යම",
     "provinceTa": "மத்திய"
   },
   {
-    "id": 81,
     "nameEn": "Norwood",
     "nameSi": "නෝර්වුඩ්",
     "nameTa": "நோர்வூட்",
     "districtEn": "Nuwara Eliya",
     "districtSi": "නුවරඑළිය",
-    "districtTa": "நுவரெலியா",
+    "districtTa": "நுவ‎ரெலியா",
     "provinceEn": "Central",
     "provinceSi": "මධ්‍යම",
     "provinceTa": "மத்திய"
   },
   {
-    "id": 82,
     "nameEn": "Benthota",
     "nameSi": "බෙන්තොට",
-    "nameTa": "பெந்தொட்டை",
+    "nameTa": "‎பெந்தொட்டை",
     "districtEn": "Galle",
     "districtSi": "ගාල්ල",
     "districtTa": "காலி",
@@ -986,7 +902,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 83,
     "nameEn": "Balapitiya",
     "nameSi": "බලපිටිය",
     "nameTa": "பலபிட்டிய",
@@ -998,10 +913,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 84,
     "nameEn": "Karandeniya",
     "nameSi": "කරන්දෙණිය",
-    "nameTa": "கரந்தெனிய",
+    "nameTa": "கரந்‎தெனிய",
     "districtEn": "Galle",
     "districtSi": "ගාල්ල",
     "districtTa": "காலி",
@@ -1010,7 +924,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 85,
     "nameEn": "Elpitiya",
     "nameSi": "ඇල්පිටිය",
     "nameTa": "எல்பிடி",
@@ -1022,7 +935,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 86,
     "nameEn": "Niyagama",
     "nameSi": "නියාගම",
     "nameTa": "நியாகம",
@@ -1034,7 +946,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 87,
     "nameEn": "Thawalama",
     "nameSi": "තවලම",
     "nameTa": "தவலம",
@@ -1046,10 +957,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 88,
     "nameEn": "Neluwa",
     "nameSi": "නෙළුව",
-    "nameTa": "நெழுவ",
+    "nameTa": "‎நெழுவ",
     "districtEn": "Galle",
     "districtSi": "ගාල්ල",
     "districtTa": "காலி",
@@ -1058,10 +968,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 89,
     "nameEn": "Nagoda",
     "nameSi": "නාගොඩ",
-    "nameTa": "நாகொ‍டை",
+    "nameTa": "நா‎கொ‍டை",
     "districtEn": "Galle",
     "districtSi": "ගාල්ල",
     "districtTa": "காலி",
@@ -1070,7 +979,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 90,
     "nameEn": "Baddegama",
     "nameSi": "බද්දේගම",
     "nameTa": "பத்‍தேகம",
@@ -1082,9 +990,8 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 91,
     "nameEn": "Waduramba",
-    "nameSi": "වදුරඹ",
+    "nameSi": "වදුරඹ​",
     "nameTa": "வட்டுரம்ப",
     "districtEn": "Galle",
     "districtSi": "ගාල්ල",
@@ -1094,10 +1001,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 92,
     "nameEn": "Welivitiya-Divithura",
     "nameSi": "වැලිවිටිය - දිවිතුර",
-    "nameTa": "வெலிவிடிய-திவிதுர",
+    "nameTa": "‎வெலிவிடிய-திவிதுர",
     "districtEn": "Galle",
     "districtSi": "ගාල්ල",
     "districtTa": "காலி",
@@ -1106,10 +1012,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 93,
     "nameEn": "Ambalangoda",
     "nameSi": "අම්බලන්ගොඩ",
-    "nameTa": "அம்பலாங்கொடை",
+    "nameTa": "அம்பலாங்‎கொடை",
     "districtEn": "Galle",
     "districtSi": "ගාල්ල",
     "districtTa": "காலி",
@@ -1118,7 +1023,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 94,
     "nameEn": "Gonapinuwala",
     "nameSi": "ගෝනාපිනුවල",
     "nameTa": "கோணப்பினுவல",
@@ -1130,9 +1034,8 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 95,
     "nameEn": "Madampagama",
-    "nameSi": "මාදම්පාගම",
+    "nameSi": "මාදම්පාගම​",
     "nameTa": "மடம்பகம",
     "districtEn": "Galle",
     "districtSi": "ගාල්ල",
@@ -1142,7 +1045,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 96,
     "nameEn": "Hikkaduwa",
     "nameSi": "හික්කඩුව",
     "nameTa": "ஹிக்கடுவை",
@@ -1154,9 +1056,8 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 97,
     "nameEn": "Rathgama",
-    "nameSi": "රත්ගම",
+    "nameSi": "රත්ගම​",
     "nameTa": "ரத்கம",
     "districtEn": "Galle",
     "districtSi": "ගාල්ල",
@@ -1166,7 +1067,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 98,
     "nameEn": "Galle Four Gravets",
     "nameSi": "ගාල්ල කඩවත් සතර",
     "nameTa": "காலி கடவத் ஸதர(பிரதேச செயலகப் பிரிவு)",
@@ -1178,10 +1078,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 99,
     "nameEn": "Bope-Poddala",
     "nameSi": "බෝපෙ පෝද්දල",
-    "nameTa": "‍‍போ‍பே-பொத்தல",
+    "nameTa": "‍‎‍போ‍பே-‎பொத்தல",
     "districtEn": "Galle",
     "districtSi": "ගාල්ල",
     "districtTa": "காலி",
@@ -1190,7 +1089,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 100,
     "nameEn": "Akmeemana",
     "nameSi": "අක්මීමන",
     "nameTa": "அக்மீமண",
@@ -1202,7 +1100,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 101,
     "nameEn": "Yakkalamulla",
     "nameSi": "යක්කල මුල්ල",
     "nameTa": "யக்கலமுல்ல",
@@ -1214,7 +1111,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 102,
     "nameEn": "Imaduwa",
     "nameSi": "ඉමදූව",
     "nameTa": "இமதூவ",
@@ -1226,7 +1122,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 103,
     "nameEn": "Habaraduwa",
     "nameSi": "හබරාදුව",
     "nameTa": "ஹபராதூவ",
@@ -1238,10 +1133,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 104,
     "nameEn": "Pitabeddara",
     "nameSi": "පිටබැද්දර",
-    "nameTa": "பிட்டபெத்தர",
+    "nameTa": "பிட்ட‎பெத்தர",
     "districtEn": "Matara",
     "districtSi": "මාතර",
     "districtTa": "மாத்தறை",
@@ -1250,7 +1144,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 105,
     "nameEn": "Kotapola",
     "nameSi": "කොටපොල",
     "nameTa": "கொட்டபொல",
@@ -1262,10 +1155,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 106,
     "nameEn": "Pasgoda",
     "nameSi": "පස්ගොඩ",
-    "nameTa": "பஸ்கொட",
+    "nameTa": "பஸ்‎கொட",
     "districtEn": "Matara",
     "districtSi": "මාතර",
     "districtTa": "மாத்தறை",
@@ -1274,7 +1166,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 107,
     "nameEn": "Mulatiyana",
     "nameSi": "මුලටියන",
     "nameTa": "முலடியன",
@@ -1286,10 +1177,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 108,
     "nameEn": "Athuraliya",
     "nameSi": "අතුරලිය",
-    "nameTa": "அத்துரெளிய",
+    "nameTa": "அத்து‎ரெளிய",
     "districtEn": "Matara",
     "districtSi": "මාතර",
     "districtTa": "மாத்தறை",
@@ -1298,10 +1188,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 109,
     "nameEn": "Akuressa",
     "nameSi": "අකුරැස්ස",
-    "nameTa": "அக்குரெஸ்ஸ",
+    "nameTa": "அக்கு‎ரெஸ்ஸ",
     "districtEn": "Matara",
     "districtSi": "මාතර",
     "districtTa": "மாத்தறை",
@@ -1310,7 +1199,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 110,
     "nameEn": "Welipitiya",
     "nameSi": "වැලිපිටිය",
     "nameTa": "வெலிபிட்டிய",
@@ -1322,7 +1210,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 111,
     "nameEn": "Malimbada",
     "nameSi": "මාලිම්බඩ",
     "nameTa": "மாலிம்பட",
@@ -1334,7 +1221,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 112,
     "nameEn": "Kamburupitiya",
     "nameSi": "කඹුරුපිටිය",
     "nameTa": "கம்புறுபிட்டிய",
@@ -1346,7 +1232,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 113,
     "nameEn": "Hakmana",
     "nameSi": "හක්මන",
     "nameTa": "ஹக்மண",
@@ -1358,10 +1243,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 114,
     "nameEn": "Kirinda Puhulwella",
     "nameSi": "කිරින්ද පුහුල්වැල්ල",
-    "nameTa": "கிரிந்த புஹுல்வெல",
+    "nameTa": "கிரிந்த புஹுல்‎வெல",
     "districtEn": "Matara",
     "districtSi": "මාතර",
     "districtTa": "மாத்தறை",
@@ -1370,10 +1254,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 115,
     "nameEn": "Thihagoda",
     "nameSi": "තිහගොඩ",
-    "nameTa": "திஹகொட",
+    "nameTa": "திஹ‎கொட",
     "districtEn": "Matara",
     "districtSi": "මාතර",
     "districtTa": "மாத்தறை",
@@ -1382,7 +1265,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 116,
     "nameEn": "Weligama",
     "nameSi": "වැලිගම",
     "nameTa": "வெலிகம",
@@ -1394,7 +1276,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 117,
     "nameEn": "Four Gravets",
     "nameSi": "කඩවත් සතර",
     "nameTa": "கடவத் ஸதர",
@@ -1406,7 +1287,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 118,
     "nameEn": "Devinuwara",
     "nameSi": "දෙවිනුවර",
     "nameTa": "தெவிநுவர",
@@ -1418,10 +1298,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 119,
     "nameEn": "Dickwella",
     "nameSi": "දික්වැල්ල",
-    "nameTa": "திக்வெல்ல",
+    "nameTa": "திக்‎வெல்ல",
     "districtEn": "Matara",
     "districtSi": "මාතර",
     "districtTa": "மாத்தறை",
@@ -1430,10 +1309,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 120,
     "nameEn": "Sooriyawewa",
     "nameSi": "සූරියවැව",
-    "nameTa": "சூரியவெவெ",
+    "nameTa": "சூரிய‎வெ‎வெ",
     "districtEn": "Hambantota",
     "districtSi": "හම්බන්තොට",
     "districtTa": "ஹம்பாந்தோட்‍டை",
@@ -1442,10 +1320,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 121,
     "nameEn": "Lunugamvehera",
     "nameSi": "ලුණුගම්වෙහෙර",
-    "nameTa": "லுணுகம்வெஹற",
+    "nameTa": "லுணுகம்‎வெஹற",
     "districtEn": "Hambantota",
     "districtSi": "හම්බන්තොට",
     "districtTa": "ஹம்பாந்தோட்‍டை",
@@ -1454,7 +1331,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 122,
     "nameEn": "Tissamaharama",
     "nameSi": "තිස්සමහාරාමය",
     "nameTa": "திஸ்ஸமஹாராம",
@@ -1466,7 +1342,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 123,
     "nameEn": "Hambantota",
     "nameSi": "හමිබන්තොට",
     "nameTa": "ஹம்பந்‍தோட்டை",
@@ -1478,7 +1353,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 124,
     "nameEn": "Ambalantota",
     "nameSi": "අම්බලන්තොට",
     "nameTa": "அம்பலாந்‍தோட்டை",
@@ -1490,10 +1364,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 125,
     "nameEn": "Angunakolapelessa",
     "nameSi": "අඟුණුකොළපැලැස්ස",
-    "nameTa": "அங்குணகொலபெலெஸ்ஸ",
+    "nameTa": "அங்குண‎கொல‎பெ‎லெஸ்ஸ",
     "districtEn": "Hambantota",
     "districtSi": "හම්බන්තොට",
     "districtTa": "ஹம்பாந்தோட்‍டை",
@@ -1502,7 +1375,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 126,
     "nameEn": "Weeraketiya",
     "nameSi": "වීරකැටිය",
     "nameTa": "வீரகெட்டிய",
@@ -1514,7 +1386,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 127,
     "nameEn": "Katuwana",
     "nameSi": "කටුවන",
     "nameTa": "கடுவண",
@@ -1526,10 +1397,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 128,
     "nameEn": "Okewela",
     "nameSi": "ඕකෙවෙල",
-    "nameTa": "ஓ‍‍‍‍கேவெல",
+    "nameTa": "ஓ‍‍‍‍கே‎வெல",
     "districtEn": "Hambantota",
     "districtSi": "හම්බන්තොට",
     "districtTa": "ஹம்பாந்தோட்‍டை",
@@ -1538,10 +1408,9 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 129,
     "nameEn": "Beliatta",
     "nameSi": "බෙලිඅත්ත",
-    "nameTa": "பெலியத்த",
+    "nameTa": "‎பெலியத்த",
     "districtEn": "Hambantota",
     "districtSi": "හම්බන්තොට",
     "districtTa": "ஹம்பாந்தோட்‍டை",
@@ -1550,7 +1419,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 130,
     "nameEn": "Tangalle",
     "nameSi": "තංගල්ල",
     "nameTa": "தங்கல்லை",
@@ -1562,7 +1430,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 131,
     "nameEn": "Walasmulla",
     "nameSi": "වලස්මුල්ල",
     "nameTa": "வளஸ்முல்லா",
@@ -1574,7 +1441,6 @@ export const dsds: DSD[] = [
     "provinceTa": "தெற்கு"
   },
   {
-    "id": 132,
     "nameEn": "Island North (Kayts)",
     "nameSi": "කයිට්ස්",
     "nameTa": "தீவு வடக்கு (கை‍ட்ஸ்)",
@@ -1586,7 +1452,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 133,
     "nameEn": "Valikamam West (Chankanai)",
     "nameSi": "වලිකාමම් බටහිර චංකානෙයි",
     "nameTa": "வலிகாமம் ‍மேற்கு (சங்கனை)",
@@ -1598,10 +1463,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 134,
     "nameEn": "Valikamam South-West (Sandilipay)",
     "nameSi": "වලිකාමම් නිරිත සන්දිලිපායි",
-    "nameTa": "வலிகாமம் தென்‍மேற்கு (சந்திலிப்பாய்)",
+    "nameTa": "வலிகாமம் ‎தென்‍மேற்கு (சந்திலிப்பாய்)",
     "districtEn": "Jaffna",
     "districtSi": "යාපනය",
     "districtTa": "யாழ்பாணம்",
@@ -1610,10 +1474,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 135,
     "nameEn": "Valikamam North (Tellipallai)",
     "nameSi": "වලිකාමම් උතුර",
-    "nameTa": "வலிகாமம் வடக்கு (தெல்லிப்பளை",
+    "nameTa": "வலிகாமம் வடக்கு (‎தெல்லிப்பளை",
     "districtEn": "Jaffna",
     "districtSi": "යාපනය",
     "districtTa": "யாழ்பாணம்",
@@ -1622,7 +1485,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 136,
     "nameEn": "Valikamam South (Uduvil)",
     "nameSi": "වලිකාමම් දකුණ උඩුවිල්",
     "nameTa": "வலிகாமம் தெற்கு (உடுவில்)",
@@ -1634,7 +1496,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 137,
     "nameEn": "valikamam-East(kopayi)",
     "nameSi": "වලිකාමම් නැගෙනහිර",
     "nameTa": "வலிகாமம் கிழக்கு",
@@ -1646,10 +1507,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 138,
     "nameEn": "Vadamaradchy South-West, Karaveddy",
     "nameSi": "වඩමාරච්චි දකුණ බටහිර කරවෙඩ්ඩි",
-    "nameTa": "வடமராச்சி தென்‍மேற்கு (கரவெட்டி)",
+    "nameTa": "வடமராச்சி ‎தென்‍மேற்கு (கர‎வெட்டி)",
     "districtEn": "Jaffna",
     "districtSi": "යාපනය",
     "districtTa": "யாழ்பாணம்",
@@ -1658,7 +1518,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 139,
     "nameEn": "Vadamaradchi East (Maruthnkerny)",
     "nameSi": "වඩමාරච්චි නැගෙනහිර (මරුතන්කේණි)",
     "nameTa": "வடமராச்சி கிழக்கு ( மருத்தங்‍கேணி)",
@@ -1670,7 +1529,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 140,
     "nameEn": "Vadamaradchi North (Point Pedro)",
     "nameSi": "වඩමිරච්චි උතුර",
     "nameTa": "வடமராச்சி வடக்கு (‍பேதுருமுணை)",
@@ -1682,10 +1540,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 141,
     "nameEn": "Thenmaradchi (Chavakachcheri)",
     "nameSi": "තෙන්මාරච්චි",
-    "nameTa": "தென்மராச்சி (சாவக்கச்‍சேரி)",
+    "nameTa": "‎தென்மராச்சி (சாவக்கச்‍சேரி)",
     "districtEn": "Jaffna",
     "districtSi": "යාපනය",
     "districtTa": "யாழ்பாணம்",
@@ -1694,7 +1551,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 142,
     "nameEn": "Nallur",
     "nameSi": "නල්ලූර්",
     "nameTa": "நல்லூர்",
@@ -1706,7 +1562,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 143,
     "nameEn": "Jaffna",
     "nameSi": "යාපනය",
     "nameTa": "யாழ்ப்பாணம்",
@@ -1718,10 +1573,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 144,
     "nameEn": "Island South ,Velanai",
     "nameSi": "දිවයින දකුණ වෙලණෙයි",
-    "nameTa": "தீவு தெற்கு (‍வேலணி)",
+    "nameTa": "தீவு ‎தெற்கு (‍வேலணி)",
     "districtEn": "Jaffna",
     "districtSi": "යාපනය",
     "districtTa": "யாழ்பாணம்",
@@ -1730,10 +1584,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 145,
     "nameEn": "Delft",
     "nameSi": "ඩෙල්ප්ට්",
-    "nameTa": "டெல்ப்",
+    "nameTa": "‎டெல்ப்",
     "districtEn": "Jaffna",
     "districtSi": "යාපනය",
     "districtTa": "யாழ்பாணம்",
@@ -1742,7 +1595,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 146,
     "nameEn": "Karainagar",
     "nameSi": "කාරෙයිනගර්",
     "nameTa": "காரைநகர்",
@@ -1754,7 +1606,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 147,
     "nameEn": "Mannar Town",
     "nameSi": "මන්නාරම නගරය",
     "nameTa": "மன்னார் நகரம்",
@@ -1766,7 +1617,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 148,
     "nameEn": "Manthai West",
     "nameSi": "මන්තායි බටහිර",
     "nameTa": "மாந்தை ‍மேற்கு",
@@ -1778,7 +1628,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 149,
     "nameEn": "Madhu",
     "nameSi": "මඩු",
     "nameTa": "மடு",
@@ -1790,7 +1639,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 150,
     "nameEn": "Nanaddan",
     "nameSi": "නානාධන්",
     "nameTa": "நனாதன்",
@@ -1802,7 +1650,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 151,
     "nameEn": "Musalai",
     "nameSi": "මුසලි",
     "nameTa": "முசலி",
@@ -1814,7 +1661,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 152,
     "nameEn": "Vavuniya North",
     "nameSi": "වවුනියා උතුර",
     "nameTa": "வவுனியா வடக்கு",
@@ -1826,10 +1672,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 153,
     "nameEn": "Vavuniya South",
     "nameSi": "වවුනියා දකුණ",
-    "nameTa": "வவுனியா தெற்கு",
+    "nameTa": "வவுனியா ‎தெற்கு",
     "districtEn": "Vavuniya",
     "districtSi": "වව්නියාව",
     "districtTa": "வவுனியா",
@@ -1838,7 +1683,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 154,
     "nameEn": "Vavuniya",
     "nameSi": "වවුනියා",
     "nameTa": "வவுனியா",
@@ -1850,10 +1694,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 155,
     "nameEn": "Vengalacheddikulam",
     "nameSi": "වෙන්ගලචෙඩ්ඩිකුලම්",
-    "nameTa": "வெங்கலச்செட்டிக்குளம்",
+    "nameTa": "‎வெங்கல‎ச்செட்டிக்குளம்",
     "districtEn": "Vavuniya",
     "districtSi": "වව්නියාව",
     "districtTa": "வவுனியா",
@@ -1862,7 +1705,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 156,
     "nameEn": "Thunukkai",
     "nameSi": "තුනුක්කායි",
     "nameTa": "துணுக்காய்",
@@ -1874,7 +1716,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 157,
     "nameEn": "Manthai East",
     "nameSi": "මාන්තෛ නැගෙනහිර",
     "nameTa": "மாந்தை கிழக்கு",
@@ -1886,7 +1727,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 158,
     "nameEn": "Puthukudiyiruppu",
     "nameSi": "පුදුකුඩියිරිප්පු",
     "nameTa": "புதுக்குடியிருப்பு",
@@ -1898,7 +1738,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 159,
     "nameEn": "Oddusuddan",
     "nameSi": "ඔඩ්ඩුසුදාන්",
     "nameTa": "ஒட்டுச்சுட்டாண்",
@@ -1910,7 +1749,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 160,
     "nameEn": "Maritimepattu",
     "nameSi": "මුහුදුබඩපත්තු",
     "nameTa": "மரிதி‍மேப்பட்டு",
@@ -1922,10 +1760,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 161,
     "nameEn": "Welioya",
     "nameSi": "වැලිඔය",
-    "nameTa": "வெலிஓய",
+    "nameTa": "‎வெலிஓய",
     "districtEn": "Mullaitivu",
     "districtSi": "මුලතිව්",
     "districtTa": "முல்லைத்தீவு",
@@ -1934,58 +1771,53 @@ export const dsds: DSD[] = [
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 162,
     "nameEn": "Pachchilaipalli",
     "nameSi": "පච්චිලයිපල්ලි",
     "nameTa": "பச்சிலைப்பல்லி",
     "districtEn": "Kilinochchi",
     "districtSi": "කිලිනොච්චි",
-    "districtTa": "கிளிநொச்சி",
+    "districtTa": "கிளி‎‎நொச்சி",
     "provinceEn": "Northern",
     "provinceSi": "උතුර",
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 163,
     "nameEn": "Kandavalai",
     "nameSi": "කන්දවලායි",
     "nameTa": "கந்தவளை",
     "districtEn": "Kilinochchi",
     "districtSi": "කිලිනොච්චි",
-    "districtTa": "கிளிநொச்சி",
+    "districtTa": "கிளி‎‎நொச்சி",
     "provinceEn": "Northern",
     "provinceSi": "උතුර",
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 164,
     "nameEn": "Karachchi",
     "nameSi": "කරච්චි",
     "nameTa": "கரைச்சி",
     "districtEn": "Kilinochchi",
     "districtSi": "කිලිනොච්චි",
-    "districtTa": "கிளிநொச்சி",
+    "districtTa": "கிளி‎‎நொச்சி",
     "provinceEn": "Northern",
     "provinceSi": "උතුර",
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 165,
     "nameEn": "Poonakary",
     "nameSi": "පුනකරි",
     "nameTa": "பூணாகரி",
     "districtEn": "Kilinochchi",
     "districtSi": "කිලිනොච්චි",
-    "districtTa": "கிளிநொச்சி",
+    "districtTa": "கிளி‎‎நொச்சி",
     "provinceEn": "Northern",
     "provinceSi": "උතුර",
     "provinceTa": "வடக்கு"
   },
   {
-    "id": 166,
     "nameEn": "Koralai Pattu North",
     "nameSi": "කෝරලේපත්තු උතුර",
-    "nameTa": "‍‍‍‍‍‍‍‍‍கோறளைப்பற்று வடக்கு வாகரை",
+    "nameTa": "‍‍‎‍‍‍‎‍‍‍‎‍கோறளைப்பற்று வடக்கு வாகரை",
     "districtEn": "Batticaloa",
     "districtSi": "මඩකලපුව",
     "districtTa": "மட்டக்களப்பு",
@@ -1994,10 +1826,9 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 167,
     "nameEn": "Koralai Pattu West (Oddamavadi)",
     "nameSi": "කෝරලේපත්තු බටහිර (ඕට්ටමාවඩි)",
-    "nameTa": "‍‍‍கோறளைப்பற்று ‍மேற்கு ( ஓட்டமாவடி)",
+    "nameTa": "‍‍‎‍கோறளைப்பற்று ‍மேற்கு ( ஓட்டமாவடி)",
     "districtEn": "Batticaloa",
     "districtSi": "මඩකලපුව",
     "districtTa": "மட்டக்களப்பு",
@@ -2006,10 +1837,9 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 168,
     "nameEn": "Koralai Pattu (Valachchenai)",
     "nameSi": "කෝරලේපත්තු (වාලච්චේනෙ)",
-    "nameTa": "‍‍‍கோறளைப்பற்று (வாழைச்சேனை)",
+    "nameTa": "‍‍‎‍கோறளைப்பற்று (வாழைச்சேனை)",
     "districtEn": "Batticaloa",
     "districtSi": "මඩකලපුව",
     "districtTa": "மட்டக்களப்பு",
@@ -2018,7 +1848,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 169,
     "nameEn": "Eravur Pattu",
     "nameSi": "එරාවුර්පත්තු",
     "nameTa": "ஏறாவூர் பற்று",
@@ -2030,7 +1859,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 170,
     "nameEn": "Eravur Town",
     "nameSi": "එරාවුර් නගරය",
     "nameTa": "ஏறாவூர் நகரம்",
@@ -2042,7 +1870,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 171,
     "nameEn": "Manmunai North",
     "nameSi": "මන්මුනායි උතුර",
     "nameTa": "மண்முனை வடக்கு",
@@ -2054,7 +1881,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 172,
     "nameEn": "Manmunai West",
     "nameSi": "මන්මුනායි බටහිර",
     "nameTa": "மண்முனை மேற்கு",
@@ -2066,7 +1892,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 173,
     "nameEn": "Kattankudy",
     "nameSi": "කාත්තන්කුඩි",
     "nameTa": "காத்தான்குடி",
@@ -2078,7 +1903,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 174,
     "nameEn": "Manmunai Pattu (Arayampathy",
     "nameSi": "මන්මුනායිපත්තු",
     "nameTa": "மண்முனை பற்று (ஆரையம்பதி)",
@@ -2090,10 +1914,9 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 175,
     "nameEn": "Manmunai South-West",
     "nameSi": "මන්මුනායි නිරිත",
-    "nameTa": "மண்முனை தென்‍மேற்கு",
+    "nameTa": "மண்முனை ‎தென்‍மேற்கு",
     "districtEn": "Batticaloa",
     "districtSi": "මඩකලපුව",
     "districtTa": "மட்டக்களப்பு",
@@ -2102,7 +1925,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 176,
     "nameEn": "Porativu Pattu",
     "nameSi": "පෝරතිවිපත්තු",
     "nameTa": "‍போரதீவுப்பற்று வெல்லாவெளி",
@@ -2114,10 +1936,9 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 177,
     "nameEn": "Manmunai South & Eruvil Pattu",
     "nameSi": "මන්මුනෙයි දකුණ හා එරුවිල්පත්තු",
-    "nameTa": "மண்முனை தென்,எருவில்பற்று களுவாஞ்சிகுடி",
+    "nameTa": "மண்முனை ‎தென்,எருவில்பற்று களுவாஞ்சிகுடி",
     "districtEn": "Batticaloa",
     "districtSi": "මඩකලපුව",
     "districtTa": "மட்டக்களப்பு",
@@ -2126,10 +1947,9 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 178,
     "nameEn": "Koralai Pattu South (Kiran)",
     "nameSi": "කෝරළෙයිපත්තු දකුණ",
-    "nameTa": "‍‍‍‍‍கோரலைப்பத்து தெற்கு (கிராண்)",
+    "nameTa": "‍‍‍‍‎‍கோரலைப்பத்து ‎தெற்கு (கிராண்)",
     "districtEn": "Batticaloa",
     "districtSi": "මඩකලපුව",
     "districtTa": "மட்டக்களப்பு",
@@ -2138,7 +1958,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 179,
     "nameEn": "Koralai Pattu Central",
     "nameSi": "කෝරලේපත්තු මධ්‍යම",
     "nameTa": "கோறளைப்பற்று மத்தி",
@@ -2150,10 +1969,9 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 180,
     "nameEn": "Dehiattakandiya",
     "nameSi": "දෙහිඅත්තකන්ඩිය",
-    "nameTa": "தெஹிஅத்தக்கண்டிய",
+    "nameTa": "‎தெஹிஅத்தக்கண்டிய",
     "districtEn": "Ampara",
     "districtSi": "අම්පාර",
     "districtTa": "அம்பா‍‍றை",
@@ -2162,7 +1980,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 181,
     "nameEn": "Padiyathalawa",
     "nameSi": "පදියතලාව",
     "nameTa": "பதியதலாவ",
@@ -2174,7 +1991,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 182,
     "nameEn": "Mahaoya",
     "nameSi": "මහඔය",
     "nameTa": "மகாஓயா",
@@ -2186,7 +2002,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 183,
     "nameEn": "Uhana",
     "nameSi": "උහන",
     "nameTa": "உஹண",
@@ -2198,7 +2013,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 184,
     "nameEn": "Ampara",
     "nameSi": "අම්පාර",
     "nameTa": "அம்பாறை",
@@ -2210,10 +2024,9 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 185,
     "nameEn": "Navithanvelly",
     "nameSi": "නාවිදන්වෙලි",
-    "nameTa": "நாவிதன்‍வெளி",
+    "nameTa": "நாவிதன்‎‍வெளி",
     "districtEn": "Ampara",
     "districtSi": "අම්පාර",
     "districtTa": "அம்பா‍‍றை",
@@ -2222,7 +2035,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 186,
     "nameEn": "Samanthurai",
     "nameSi": "සමන්තුරෙයි",
     "nameTa": "சம்மாந்துரை",
@@ -2234,7 +2046,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 187,
     "nameEn": "Kalmunai",
     "nameSi": "කල්මුණ",
     "nameTa": "கல்முனை",
@@ -2246,7 +2057,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 188,
     "nameEn": "Sainthamarathu",
     "nameSi": "සෙයින්තමරතු",
     "nameTa": "சாய்ந்தமருது",
@@ -2258,7 +2068,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 189,
     "nameEn": "Karaitivu",
     "nameSi": "කාරයිතිවු",
     "nameTa": "கா‍ரைதீவு",
@@ -2270,7 +2079,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 190,
     "nameEn": "Ninthavur",
     "nameSi": "නින්දවූර්",
     "nameTa": "நிந்தவூர்",
@@ -2282,7 +2090,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 191,
     "nameEn": "Addalaichenai",
     "nameSi": "අඩ්ඩාලචේන",
     "nameTa": "அட்டால‍ச்சேனை",
@@ -2294,7 +2101,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 192,
     "nameEn": "Irakkamam",
     "nameSi": "ඉරක්කාමම්",
     "nameTa": "இறக்காமம்",
@@ -2306,7 +2112,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 193,
     "nameEn": "Akkaraipattu",
     "nameSi": "අක්කරෙයිපත්තු",
     "nameTa": "அக்கரைப்பத்து",
@@ -2318,7 +2123,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 194,
     "nameEn": "Alayadiwembu",
     "nameSi": "අලයඩිවෙම්බු",
     "nameTa": "அலையடி‍வேம்பு",
@@ -2330,7 +2134,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 195,
     "nameEn": "Damana",
     "nameSi": "දමන",
     "nameTa": "தமண",
@@ -2342,7 +2145,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 196,
     "nameEn": "Thirukkovil",
     "nameSi": "තිරුක්කෝවිල්",
     "nameTa": "திருக்‍கோவில்",
@@ -2354,10 +2156,9 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 197,
     "nameEn": "Pothuvil",
     "nameSi": "පොතුවිල්",
-    "nameTa": "பொத்துவில்",
+    "nameTa": "‎பொத்துவில்",
     "districtEn": "Ampara",
     "districtSi": "අම්පාර",
     "districtTa": "அம்பா‍‍றை",
@@ -2366,7 +2167,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 198,
     "nameEn": "Lahugala",
     "nameSi": "ලාහුගල",
     "nameTa": "லாஹுகலை",
@@ -2378,9 +2178,8 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 199,
     "nameEn": "Kalmunai North Sub Office",
-    "nameSi": "කල්මුණ උතුර උප කාර්යාලය",
+    "nameSi": "කල්මුණ උතුර උප කාර්යාලය​",
     "nameTa": "கல்முனை வடக்கு உப பிரதேச செயலகம்",
     "districtEn": "Ampara",
     "districtSi": "අම්පාර",
@@ -2390,7 +2189,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 200,
     "nameEn": "Padavi Sri Pura",
     "nameSi": "පදවි ශ්‍රි පුර",
     "nameTa": "பதவி ஸ்ரீ புர",
@@ -2402,7 +2200,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 201,
     "nameEn": "Kuchchaveli",
     "nameSi": "කුච්චවේලි",
     "nameTa": "குச்ச‍வேலி",
@@ -2414,7 +2211,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 202,
     "nameEn": "Gomarankadawala",
     "nameSi": "ගෝමරන්කඩවල",
     "nameTa": "‍கோமரண்கடவல",
@@ -2426,10 +2222,9 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 203,
     "nameEn": "Morawewa",
     "nameSi": "මොරවැව",
-    "nameTa": "மொறவெவ",
+    "nameTa": "‎மொற‎வெவ",
     "districtEn": "Trincomalee",
     "districtSi": "ත්‍රිකුණාමලය",
     "districtTa": "திரு‍கோண‍மலை",
@@ -2438,7 +2233,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 204,
     "nameEn": "Trincomalee Town and Gravets",
     "nameSi": "ත්‍රිකුණාමලය නගරය හා කඩවත්",
     "nameTa": "திரு‍கோணமலை நகரம்",
@@ -2450,7 +2244,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 205,
     "nameEn": "Thambalagamuwa",
     "nameSi": "තඔලගමුව",
     "nameTa": "தம்பலகமம்",
@@ -2462,7 +2255,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 206,
     "nameEn": "Kantalai",
     "nameSi": "කන්තලේ",
     "nameTa": "கந்தளாய்",
@@ -2474,7 +2266,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 207,
     "nameEn": "Kinniya",
     "nameSi": "කින්නියා",
     "nameTa": "கிண்ணியா",
@@ -2486,7 +2277,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 208,
     "nameEn": "Muthur",
     "nameSi": "මුත්තූර්",
     "nameTa": "மூதூர்",
@@ -2498,7 +2288,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 209,
     "nameEn": "Seruwila",
     "nameSi": "සේරුවිල",
     "nameTa": "‍சேருவில்",
@@ -2510,10 +2299,9 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 210,
     "nameEn": "Verugal",
     "nameSi": "වෙරුගල්",
-    "nameTa": "வெருகல்",
+    "nameTa": "‎வெருகல்",
     "districtEn": "Trincomalee",
     "districtSi": "ත්‍රිකුණාමලය",
     "districtTa": "திரு‍கோண‍மலை",
@@ -2522,7 +2310,6 @@ export const dsds: DSD[] = [
     "provinceTa": "கிழக்கு"
   },
   {
-    "id": 211,
     "nameEn": "Giribawa",
     "nameSi": "ගිරිබාව",
     "nameTa": "கிரிபாவ",
@@ -2534,7 +2321,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 212,
     "nameEn": "Galgamuwa",
     "nameSi": "ගල්ගමුව",
     "nameTa": "கல்கமுவ",
@@ -2546,10 +2332,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 213,
     "nameEn": "Ehetuwewa",
     "nameSi": "ඇහැටුවැව",
-    "nameTa": "எஹெட்டுவெவ",
+    "nameTa": "எ‎‎ஹெட்டு‎வெவ",
     "districtEn": "Kurunegala",
     "districtSi": "කුරුණෑගල",
     "districtTa": "குருணாக‍லை",
@@ -2558,10 +2343,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 214,
     "nameEn": "Ambanpola",
     "nameSi": "අඹන්පොළ",
-    "nameTa": "அம்பண்பொல",
+    "nameTa": "அம்பண்‎பொல",
     "districtEn": "Kurunegala",
     "districtSi": "කුරුණෑගල",
     "districtTa": "குருணாக‍லை",
@@ -2570,7 +2354,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 215,
     "nameEn": "Kotavehera",
     "nameSi": "කොටවෙහෙර",
     "nameTa": "கொடவெஹெர",
@@ -2582,7 +2365,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 216,
     "nameEn": "Rasnayakapura",
     "nameSi": "රස්නායකපුර",
     "nameTa": "ரஸ்நாயக்கபுர",
@@ -2594,10 +2376,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 217,
     "nameEn": "Nikaweratiya",
     "nameSi": "නිකවැරටිය",
-    "nameTa": "நிக்கவெரட்டிய",
+    "nameTa": "நிக்க‎வெரட்டிய",
     "districtEn": "Kurunegala",
     "districtSi": "කුරුණෑගල",
     "districtTa": "குருணாக‍லை",
@@ -2606,7 +2387,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 218,
     "nameEn": "Mahawa",
     "nameSi": "මහව",
     "nameTa": "மஹவ",
@@ -2618,7 +2398,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 219,
     "nameEn": "Polpithigama",
     "nameSi": "පොල්පිතිගම",
     "nameTa": "பொல்பிதிகம",
@@ -2630,7 +2409,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 220,
     "nameEn": "Ibbagamuwa",
     "nameSi": "ඉබ්බාගමුව",
     "nameTa": "இப்பாகமுவ",
@@ -2642,7 +2420,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 221,
     "nameEn": "Ganewatta",
     "nameSi": "ගනේවත්ත",
     "nameTa": "க‍னேவத்த",
@@ -2654,10 +2431,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 222,
     "nameEn": "Wariyapola",
     "nameSi": "වාරියපොල",
-    "nameTa": "வாரியப்பொல",
+    "nameTa": "வாரிய‎ப்பொல",
     "districtEn": "Kurunegala",
     "districtSi": "කුරුණෑගල",
     "districtTa": "குருணாக‍லை",
@@ -2666,7 +2442,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 223,
     "nameEn": "Kobeigane",
     "nameSi": "කොබෙයිගනේ",
     "nameTa": "கொபெய்கனே",
@@ -2678,7 +2453,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 224,
     "nameEn": "Bingiriya",
     "nameSi": "බිංගිරිය",
     "nameTa": "பிங்கிரிய",
@@ -2690,7 +2464,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 225,
     "nameEn": "Panduwasnuwara",
     "nameSi": "පඩුවස්නුවර",
     "nameTa": "பண்டுவஸ்நுவர",
@@ -2702,10 +2475,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 226,
     "nameEn": "Paduwasnuwara East",
     "nameSi": "පඬුවස්නුවර නැගෙනහිර",
-    "nameTa": "கடுபொத",
+    "nameTa": "கடு‎பொத",
     "districtEn": "Kurunegala",
     "districtSi": "කුරුණෑගල",
     "districtTa": "குருணாக‍லை",
@@ -2714,10 +2486,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 227,
     "nameEn": "Bamunakotuwa",
     "nameSi": "බමුණාකොටුව",
-    "nameTa": "பமுணகொட்டுவ",
+    "nameTa": "பமுண‎கொட்டுவ",
     "districtEn": "Kurunegala",
     "districtSi": "කුරුණෑගල",
     "districtTa": "குருணாக‍லை",
@@ -2726,10 +2497,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 228,
     "nameEn": "Maspotha",
     "nameSi": "මාස්පොත",
-    "nameTa": "மஸ்பொத",
+    "nameTa": "மஸ்‎பொத",
     "districtEn": "Kurunegala",
     "districtSi": "කුරුණෑගල",
     "districtTa": "குருணாக‍லை",
@@ -2738,7 +2508,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 229,
     "nameEn": "Kurunegala",
     "nameSi": "කුරුණෑගල",
     "nameTa": "குருணாக‍லை",
@@ -2750,7 +2519,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 230,
     "nameEn": "Mallawapitiya",
     "nameSi": "මල්ලවපිටිය",
     "nameTa": "மல்லவபிட்டிய",
@@ -2762,7 +2530,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 231,
     "nameEn": "Mawathagama",
     "nameSi": "මාවතගම",
     "nameTa": "மாவத்தகம",
@@ -2774,7 +2541,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 232,
     "nameEn": "Rideegama",
     "nameSi": "රිදීගම",
     "nameTa": "ரிதீகம",
@@ -2786,10 +2552,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 233,
     "nameEn": "Weerambugedara",
     "nameSi": "වීරඹුගෙදර",
-    "nameTa": "வீரம்புகெதர",
+    "nameTa": "வீரம்பு‎கெதர",
     "districtEn": "Kurunegala",
     "districtSi": "කුරුණෑගල",
     "districtTa": "குருணாக‍லை",
@@ -2798,7 +2563,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 234,
     "nameEn": "Kuliyapitiya East",
     "nameSi": "කුළියාපිටිය නැගෙනහිර",
     "nameTa": "குளியாபிட்டிய கிழக்கு",
@@ -2810,7 +2574,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 235,
     "nameEn": "Kuliyapitiya West",
     "nameSi": "කුළියාපිටිය බටහිර",
     "nameTa": "குளியாபிட்டிய ‍மேற்கு",
@@ -2822,7 +2585,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 236,
     "nameEn": "Udubaddawa",
     "nameSi": "උඩුබද්දාව",
     "nameTa": "உடுபத்தாவ",
@@ -2834,7 +2596,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 237,
     "nameEn": "Pannala",
     "nameSi": "පන්නල",
     "nameTa": "பன்னல",
@@ -2846,7 +2607,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 238,
     "nameEn": "Narammala",
     "nameSi": "නාරම්මල",
     "nameTa": "நாரம்மல",
@@ -2858,7 +2618,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 239,
     "nameEn": "Alawwa",
     "nameSi": "අලව්ව",
     "nameTa": "அலவ்வ",
@@ -2870,7 +2629,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 240,
     "nameEn": "Polgahawela",
     "nameSi": "පොල්ගහවෙල",
     "nameTa": "பொல்கஹவெல",
@@ -2882,7 +2640,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 241,
     "nameEn": "Vanathavilluwa",
     "nameSi": "වනාතවිල්ලුව",
     "nameTa": "வனாத்தவில்லுவ",
@@ -2894,7 +2651,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 242,
     "nameEn": "Kalpitiya",
     "nameSi": "කල්පිටිය",
     "nameTa": "கல்பிடிய",
@@ -2906,10 +2662,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 243,
     "nameEn": "Karuwalagaswewa",
     "nameSi": "කරුවලගස්වැව",
-    "nameTa": "கருவலகஸ்வெவ",
+    "nameTa": "கருவலகஸ்‎வெவ",
     "districtEn": "Puttalam",
     "districtSi": "පුත්තලම",
     "districtTa": "புத்தளம்",
@@ -2918,7 +2673,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 244,
     "nameEn": "Nawagattegama",
     "nameSi": "නවගත්තේගම",
     "nameTa": "நவகத்‍தேகம",
@@ -2930,7 +2684,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 245,
     "nameEn": "Puttalam",
     "nameSi": "පුත්තලම",
     "nameTa": "புத்தளம்",
@@ -2942,7 +2695,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 246,
     "nameEn": "Mundalama",
     "nameSi": "මුන්දලම",
     "nameTa": "முந்தலம்",
@@ -2954,7 +2706,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 247,
     "nameEn": "Mahakumbukkadawala",
     "nameSi": "මහකුඹුක්කඩවල",
     "nameTa": "மஹகும்புக்கடவல",
@@ -2966,7 +2717,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 248,
     "nameEn": "Anamaduwa",
     "nameSi": "ආනමඩුව",
     "nameTa": "ஆணமடுவ",
@@ -2978,7 +2728,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 249,
     "nameEn": "Pallama",
     "nameSi": "පල්ලම",
     "nameTa": "பள்ளம",
@@ -2990,7 +2739,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 250,
     "nameEn": "Arachchikattuwa",
     "nameSi": "ආරච්චිකට්ටුව",
     "nameTa": "ஆரச்சிகட்டுவ",
@@ -3002,7 +2750,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 251,
     "nameEn": "Chilaw",
     "nameSi": "හලාවත",
     "nameTa": "சிலாபம்",
@@ -3014,7 +2761,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 252,
     "nameEn": "Madampe",
     "nameSi": "මාදම්පෙ",
     "nameTa": "மாதம்‍பே",
@@ -3026,10 +2772,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 253,
     "nameEn": "Mahawewa",
     "nameSi": "මහවැව",
-    "nameTa": "மஹாவெவ",
+    "nameTa": "மஹா‎வெவ",
     "districtEn": "Puttalam",
     "districtSi": "පුත්තලම",
     "districtTa": "புத்தளம்",
@@ -3038,7 +2783,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 254,
     "nameEn": "Nattandiya",
     "nameSi": "නාත්තන්ඩිය",
     "nameTa": "நாத்தண்டிய",
@@ -3050,7 +2794,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 255,
     "nameEn": "Wennappuwa",
     "nameSi": "වෙන්නප්පුව",
     "nameTa": "வெண்ணப்புவ",
@@ -3062,10 +2805,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 256,
     "nameEn": "Dankotuwa",
     "nameSi": "දංකොටුව",
-    "nameTa": "தங்கொட்டுவ",
+    "nameTa": "தங்‎‎கொட்டுவ",
     "districtEn": "Puttalam",
     "districtSi": "පුත්තලම",
     "districtTa": "புத்தளம்",
@@ -3074,7 +2816,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட ‍மேற்கு"
   },
   {
-    "id": 257,
     "nameEn": "Padaviya",
     "nameSi": "පදවිය",
     "nameTa": "பதவிய",
@@ -3086,10 +2827,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 258,
     "nameEn": "Kebithigollewa",
     "nameSi": "කැබිතිගොල්ලෑව",
-    "nameTa": "கெபித்திகொல்‍லேவ",
+    "nameTa": "‎‎கெபித்தி‎கொல்‍லேவ",
     "districtEn": "Anuradhapura",
     "districtSi": "අනුරාධපුරය",
     "districtTa": "அநுராதபுரம்",
@@ -3098,10 +2838,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 259,
     "nameEn": "Medawachchiya",
     "nameSi": "මැදවච්චිය",
-    "nameTa": "மெதவச்சிய",
+    "nameTa": "‎மெதவச்சிய",
     "districtEn": "Anuradhapura",
     "districtSi": "අනුරාධපුරය",
     "districtTa": "அநுராதபுரம்",
@@ -3110,7 +2849,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 260,
     "nameEn": "Mahavilachchiya",
     "nameSi": "මහවිලච්චිය",
     "nameTa": "மஹவிலச்சிய",
@@ -3122,7 +2860,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 261,
     "nameEn": "Nuwaragam Palatha Central",
     "nameSi": "නුවරගම් පළාත මධ්‍යම",
     "nameTa": "மத்திய நுவரகம் பலாத்த",
@@ -3134,7 +2871,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 262,
     "nameEn": "Rambewa",
     "nameSi": "රඹෑව",
     "nameTa": "ரம்பேவ",
@@ -3146,7 +2882,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 263,
     "nameEn": "Kahatagasdigiliya",
     "nameSi": "කහටගස්දිගිලිය",
     "nameTa": "கஹட்டகஸ்திகிலிய",
@@ -3158,10 +2893,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 264,
     "nameEn": "Horowpothana",
     "nameSi": "හොරොව්පතාන",
-    "nameTa": "ஹொரவபொத்தான",
+    "nameTa": "‎ஹொ‎ரவபொத்தான",
     "districtEn": "Anuradhapura",
     "districtSi": "අනුරාධපුරය",
     "districtTa": "அநுராதபுரம்",
@@ -3170,10 +2904,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 265,
     "nameEn": "Galenbindunuwewa",
     "nameSi": "ගලෙන්බිදුනුවැව",
-    "nameTa": "கலென்பிந்துனுவெவ",
+    "nameTa": "க‎லென்பிந்துனுவெவ",
     "districtEn": "Anuradhapura",
     "districtSi": "අනුරාධපුරය",
     "districtTa": "அநுராதபுரம்",
@@ -3182,7 +2915,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 266,
     "nameEn": "Mihinthale",
     "nameSi": "මිහින්තලේ",
     "nameTa": "மிஹிந்த‍லை",
@@ -3194,7 +2926,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 267,
     "nameEn": "Nuwaragam Palatha East",
     "nameSi": "නැගෙනහිර නුවරගම් පළාත",
     "nameTa": "கிழக்கு நுவரகம் பலாத்த",
@@ -3206,7 +2937,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 268,
     "nameEn": "Nachchadoowa",
     "nameSi": "නාච්චදුව",
     "nameTa": "நாச்சதுவ",
@@ -3218,10 +2948,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 269,
     "nameEn": "Nochchiyagama",
     "nameSi": "නොච්චියාගම",
-    "nameTa": "நொச்சியாகம",
+    "nameTa": "‎நொச்சியாகம",
     "districtEn": "Anuradhapura",
     "districtSi": "අනුරාධපුරය",
     "districtTa": "அநுராதபுரம்",
@@ -3230,7 +2959,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 270,
     "nameEn": "Rajanganaya",
     "nameSi": "රාජාංගනය",
     "nameTa": "இராஜ்ஜாங்கணய",
@@ -3242,7 +2970,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 271,
     "nameEn": "Thambuttegama",
     "nameSi": "තඹුත්තෙගම",
     "nameTa": "தம்புத்‍தேகம",
@@ -3254,7 +2981,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 272,
     "nameEn": "Thalawa",
     "nameSi": "තලාව",
     "nameTa": "தலாவ",
@@ -3266,7 +2992,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 273,
     "nameEn": "Thirappane",
     "nameSi": "තිරප්පනේ",
     "nameTa": "திரப்ப‍ணே",
@@ -3278,10 +3003,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 274,
     "nameEn": "Kekirawa",
     "nameSi": "කැකිරාව",
-    "nameTa": "கெக்கிராவ",
+    "nameTa": "‎கெக்கிராவ",
     "districtEn": "Anuradhapura",
     "districtSi": "අනුරාධපුරය",
     "districtTa": "அநுராதபுரம்",
@@ -3290,10 +3014,9 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 275,
     "nameEn": "Palugaswewa",
     "nameSi": "පලුගස්වැව",
-    "nameTa": "பலுகஸ்வெவ",
+    "nameTa": "பலுகஸ்‎வெவ",
     "districtEn": "Anuradhapura",
     "districtSi": "අනුරාධපුරය",
     "districtTa": "அநுராதபுரம்",
@@ -3302,7 +3025,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 276,
     "nameEn": "Ipalogama",
     "nameSi": "ඉපලෝගම",
     "nameTa": "இப்ப‍லோகம",
@@ -3314,7 +3036,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 277,
     "nameEn": "Galnewa",
     "nameSi": "ගල්නෑව",
     "nameTa": "கல்‍ணேவ",
@@ -3326,7 +3047,6 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 278,
     "nameEn": "Palagala",
     "nameSi": "පලාගල",
     "nameTa": "பலாகல",
@@ -3338,91 +3058,83 @@ export const dsds: DSD[] = [
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 279,
     "nameEn": "Hingurakgoda",
     "nameSi": "හිඟුරක්ගොඩ",
-    "nameTa": "ஹிங்குரக்கொடை‍",
+    "nameTa": "ஹிங்குரக்‎கொடை‍",
     "districtEn": "Polonnaruwa",
     "districtSi": "පොළොන්නරුව",
-    "districtTa": "பொலண்ணரு‍வை",
+    "districtTa": "‎பொலண்ணரு‍வை",
     "provinceEn": "North-Central",
     "provinceSi": "උතුරු මැද",
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 280,
     "nameEn": "Medirigiriya",
     "nameSi": "මැදිරිගිරිය",
-    "nameTa": "மெதிரிகிரிய",
+    "nameTa": "‎மெதிரிகிரிய",
     "districtEn": "Polonnaruwa",
     "districtSi": "පොළොන්නරුව",
-    "districtTa": "பொலண்ணரு‍வை",
+    "districtTa": "‎பொலண்ணரு‍வை",
     "provinceEn": "North-Central",
     "provinceSi": "උතුරු මැද",
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 281,
     "nameEn": "Lankapura",
     "nameSi": "ලංකාපුර",
     "nameTa": "லங்காபுர",
     "districtEn": "Polonnaruwa",
     "districtSi": "පොළොන්නරුව",
-    "districtTa": "பொலண்ணரு‍வை",
+    "districtTa": "‎பொலண்ணரு‍வை",
     "provinceEn": "North-Central",
     "provinceSi": "උතුරු මැද",
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 282,
     "nameEn": "Welikanda",
     "nameSi": "වැලිකන්ද",
-    "nameTa": "வெலிகந்த",
+    "nameTa": "‎வெலிகந்த",
     "districtEn": "Polonnaruwa",
     "districtSi": "පොළොන්නරුව",
-    "districtTa": "பொலண்ணரு‍வை",
+    "districtTa": "‎பொலண்ணரு‍வை",
     "provinceEn": "North-Central",
     "provinceSi": "උතුරු මැද",
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 283,
     "nameEn": "Dimbulagala",
     "nameSi": "දිඹුලාගල",
     "nameTa": "திம்புலாகல",
     "districtEn": "Polonnaruwa",
     "districtSi": "පොළොන්නරුව",
-    "districtTa": "பொலண்ணரு‍வை",
+    "districtTa": "‎பொலண்ணரு‍வை",
     "provinceEn": "North-Central",
     "provinceSi": "උතුරු මැද",
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 284,
     "nameEn": "Thamankaduwa",
     "nameSi": "තමන්කඩුව",
     "nameTa": "தமண்கடுவ",
     "districtEn": "Polonnaruwa",
     "districtSi": "පොළොන්නරුව",
-    "districtTa": "பொலண்ணரு‍வை",
+    "districtTa": "‎பொலண்ணரு‍வை",
     "provinceEn": "North-Central",
     "provinceSi": "උතුරු මැද",
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 285,
     "nameEn": "Elahera",
     "nameSi": "ඇලහැර",
-    "nameTa": "எலஹெற",
+    "nameTa": "எல‎ஹெற",
     "districtEn": "Polonnaruwa",
     "districtSi": "පොළොන්නරුව",
-    "districtTa": "பொலண்ணரு‍வை",
+    "districtTa": "‎பொலண்ணரு‍வை",
     "provinceEn": "North-Central",
     "provinceSi": "උතුරු මැද",
     "provinceTa": "வட மத்திய"
   },
   {
-    "id": 286,
     "nameEn": "Mahiyanganaya",
     "nameSi": "මහියංගනය",
     "nameTa": "மஹியங்க‍ணை",
@@ -3434,7 +3146,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 287,
     "nameEn": "Rideemaliyadda",
     "nameSi": "රිදීමාලියද්ද",
     "nameTa": "ரிதீமாலியத்த",
@@ -3446,7 +3157,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 288,
     "nameEn": "Meegahakivula",
     "nameSi": "මීගහකිවුල",
     "nameTa": "மீகஹகிவுல",
@@ -3458,10 +3168,9 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 289,
     "nameEn": "Kandaketiya",
     "nameSi": "කන්දකැටිය",
-    "nameTa": "கந்தகெட்டிய",
+    "nameTa": "கந்த‎கெட்டிய",
     "districtEn": "Badulla",
     "districtSi": "බදුල්ල",
     "districtTa": "பது‍ளை",
@@ -3470,10 +3179,9 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 290,
     "nameEn": "Soranathota",
     "nameSi": "සොරණාතොට",
-    "nameTa": "சொறணாதொட்ட",
+    "nameTa": "‎சொறணாதொட்ட",
     "districtEn": "Badulla",
     "districtSi": "බදුල්ල",
     "districtTa": "பது‍ளை",
@@ -3482,7 +3190,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 291,
     "nameEn": "Passara",
     "nameSi": "පස්සර",
     "nameTa": "பச‍றை",
@@ -3494,7 +3201,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 292,
     "nameEn": "Lunugala",
     "nameSi": "ලුණුගල",
     "nameTa": "லுணுக‍லை",
@@ -3506,7 +3212,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 293,
     "nameEn": "Badulla",
     "nameSi": "බදුල්ල",
     "nameTa": "பதுளை",
@@ -3518,7 +3223,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 294,
     "nameEn": "Hali-Ela",
     "nameSi": "හාලිඇල",
     "nameTa": "ஹாலி-எல",
@@ -3530,7 +3234,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 295,
     "nameEn": "Uva-Paranagama",
     "nameSi": "ඌව-පරණගම",
     "nameTa": "ஊவா-பரணகம",
@@ -3542,10 +3245,9 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 296,
     "nameEn": "Welimada",
     "nameSi": "වැලිමඩ",
-    "nameTa": "வெலிம‍டை",
+    "nameTa": "‎வெலிம‍டை",
     "districtEn": "Badulla",
     "districtSi": "බදුල්ල",
     "districtTa": "பது‍ளை",
@@ -3554,7 +3256,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 297,
     "nameEn": "Bandarawela",
     "nameSi": "බණ්ඩාරවෙල",
     "nameTa": "பண்டாரவளை",
@@ -3566,7 +3267,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 298,
     "nameEn": "Ella",
     "nameSi": "ඇල්ල",
     "nameTa": "எல்ல",
@@ -3578,7 +3278,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 299,
     "nameEn": "Haputale",
     "nameSi": "හපුතලේ",
     "nameTa": "அப்புத்தளை",
@@ -3590,7 +3289,6 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 300,
     "nameEn": "Haldummulla",
     "nameSi": "හල්දුම්මුල්ල",
     "nameTa": "ஹல்தும்முல்லை",
@@ -3602,142 +3300,130 @@ export const dsds: DSD[] = [
     "provinceTa": "ஊவா"
   },
   {
-    "id": 301,
     "nameEn": "Bibile",
     "nameSi": "බිබිලේ",
     "nameTa": "பிபிலை",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 302,
     "nameEn": "Madulla",
     "nameSi": "මඩුල්ල",
     "nameTa": "மடுள்‍ள",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 303,
     "nameEn": "Medagama",
     "nameSi": "මැදගම",
-    "nameTa": "மெதகம",
+    "nameTa": "‎மெதகம",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 304,
     "nameEn": "Siyambalanduwa",
     "nameSi": "සියඹලාන්ඩුව",
     "nameTa": "சியம்பலாண்டுவ",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 305,
     "nameEn": "Moneragala",
     "nameSi": "මොනරාගල",
-    "nameTa": "மொணராகலை",
+    "nameTa": "‎மொணராகலை",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 306,
     "nameEn": "Badalkumbura",
     "nameSi": "බඩල්කුඹුර",
     "nameTa": "படல்கும்புர",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 307,
     "nameEn": "Wellawaya",
     "nameSi": "වැල්ලවාය",
-    "nameTa": "வெல்லவாய",
+    "nameTa": "‎வெல்லவாய",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 308,
     "nameEn": "Buttala",
     "nameSi": "බුත්තල",
     "nameTa": "புத்தளை",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 309,
     "nameEn": "Katharagama",
     "nameSi": "කතරගම",
     "nameTa": "கதிர்காமம்",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 310,
     "nameEn": "Thanamalvila",
     "nameSi": "තනමල්විල",
     "nameTa": "தணமல்வில",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 311,
     "nameEn": "Sevanagala",
     "nameSi": "සෙවනගල",
-    "nameTa": "செவணகல",
+    "nameTa": "‎செவணகல",
     "districtEn": "Moneragala",
     "districtSi": "මොනරාගල",
-    "districtTa": "மொணராக‍லை",
+    "districtTa": "‎மொணராக‍லை",
     "provinceEn": "Uva",
     "provinceSi": "ඌව",
     "provinceTa": "ஊவா"
   },
   {
-    "id": 312,
     "nameEn": "Eheliyagoda",
     "nameSi": "ඇහැලියගොඩ",
-    "nameTa": "எஹலியகெடை",
+    "nameTa": "எஹலிய‎‎கெடை",
     "districtEn": "Ratnapura",
     "districtSi": "රත්නපුර",
     "districtTa": "இரத்திணபுரி",
@@ -3746,7 +3432,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 313,
     "nameEn": "Kuruvita",
     "nameSi": "කුරුවිට",
     "nameTa": "குருவிட",
@@ -3758,7 +3443,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 314,
     "nameEn": "Kiriella",
     "nameSi": "කිරිඇල්ල",
     "nameTa": "கிரிஎல்ல",
@@ -3770,7 +3454,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 315,
     "nameEn": "Ratnapura",
     "nameSi": "රත්නපුර",
     "nameTa": "இரத்திணபுரி",
@@ -3782,7 +3465,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 316,
     "nameEn": "Imbulpe",
     "nameSi": "ඉඹුල්පෙ",
     "nameTa": "இம்புல்‍பே",
@@ -3794,10 +3476,9 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 317,
     "nameEn": "Balangoda",
     "nameSi": "බලන්ගොඩ",
-    "nameTa": "பலாங்கொடை",
+    "nameTa": "பலாங்‎கொடை",
     "districtEn": "Ratnapura",
     "districtSi": "රත්නපුර",
     "districtTa": "இரத்திணபுரி",
@@ -3806,7 +3487,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 318,
     "nameEn": "Kalthota",
     "nameSi": "කල්තොට",
     "nameTa": "கல்தோட்ட",
@@ -3818,7 +3498,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 319,
     "nameEn": "Opanayaka",
     "nameSi": "ඕපනායක",
     "nameTa": "ஓபனாயக",
@@ -3830,10 +3509,9 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 320,
     "nameEn": "Pelmadulla",
     "nameSi": "පැල්මඩුල්ල",
-    "nameTa": "பெல்மதுளை",
+    "nameTa": "‎பெல்மதுளை",
     "districtEn": "Ratnapura",
     "districtSi": "රත්නපුර",
     "districtTa": "இரத்திணபுரி",
@@ -3842,7 +3520,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 321,
     "nameEn": "Elapatha",
     "nameSi": "ඇලපාත",
     "nameTa": "எலபாத",
@@ -3854,7 +3531,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 322,
     "nameEn": "Ayagama",
     "nameSi": "අයගම",
     "nameTa": "அயகம",
@@ -3866,7 +3542,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 323,
     "nameEn": "Kalawana",
     "nameSi": "කලවාන",
     "nameTa": "கலவான",
@@ -3878,7 +3553,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 324,
     "nameEn": "Nivithigala",
     "nameSi": "නිවිතිගල",
     "nameTa": "நிவித்திகல",
@@ -3890,7 +3564,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 325,
     "nameEn": "Kahawatta",
     "nameSi": "කහවත්ත",
     "nameTa": "கஹவத்த",
@@ -3902,10 +3575,9 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 326,
     "nameEn": "Godakawela",
     "nameSi": "ගොඩකවෙල",
-    "nameTa": "கொடகவெல",
+    "nameTa": "‎கொடக‎வெல",
     "districtEn": "Ratnapura",
     "districtSi": "රත්නපුර",
     "districtTa": "இரத்திணபுரி",
@@ -3914,10 +3586,9 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 327,
     "nameEn": "Weligepola",
     "nameSi": "වැලිගෙපොල",
-    "nameTa": "வெலி‍‍கேபொல",
+    "nameTa": "‎வெலி‍‍கே‎பொல",
     "districtEn": "Ratnapura",
     "districtSi": "රත්නපුර",
     "districtTa": "இரத்திணபுரி",
@@ -3926,7 +3597,6 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 328,
     "nameEn": "Embilipitiya",
     "nameSi": "ඇඹිලිපිටිය",
     "nameTa": "எம்பிலிபிட்டிய",
@@ -3938,10 +3608,9 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 329,
     "nameEn": "Kolonna",
     "nameSi": "කොලොන්න",
-    "nameTa": "கொலொண்ண",
+    "nameTa": "‎கொ‎லொண்ண",
     "districtEn": "Ratnapura",
     "districtSi": "රත්නපුර",
     "districtTa": "இரத்திணபுரி",
@@ -3950,135 +3619,124 @@ export const dsds: DSD[] = [
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 330,
     "nameEn": "Rambukkana",
     "nameSi": "රඹුක්කන",
     "nameTa": "ரம்புக்கணை",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 331,
     "nameEn": "Mawanella",
     "nameSi": "මාවනැල්ල",
-    "nameTa": "மாவணெல்ல",
+    "nameTa": "மாவ‎ணெல்ல",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 332,
     "nameEn": "Aranayaka",
     "nameSi": "අරනායක",
     "nameTa": "அரநாயக்க",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 333,
     "nameEn": "Kegalle",
     "nameSi": "කෑගල්ල",
     "nameTa": "‍கேகாலை",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 334,
     "nameEn": "Galigamuwa",
     "nameSi": "ගලිගමුව",
     "nameTa": "கலிகமுவ",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 335,
     "nameEn": "Warakapola",
     "nameSi": "වරකාපොළ",
-    "nameTa": "வரகாப்பொல",
+    "nameTa": "வரகாப்‎பொல",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 336,
     "nameEn": "Ruwanwella",
     "nameSi": "රුවන්වැල්ල",
-    "nameTa": "ருவண்வெல்ல",
+    "nameTa": "ருவண்‎வெல்ல",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 337,
     "nameEn": "Bulathkohupitiya",
     "nameSi": "බුලත්කොහුපිටිය",
-    "nameTa": "புலத்கொகுபிட்டிய",
+    "nameTa": "புலத்‎கொகுபிட்டிய",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 338,
     "nameEn": "Yatiyanthota",
     "nameSi": "යටියන්තොට",
-    "nameTa": "யட்டியந்தொட்டை",
+    "nameTa": "யட்டியந்‎தொட்டை",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 339,
     "nameEn": "Dehiovita",
     "nameSi": "දෙහිඹ්විට",
-    "nameTa": "தெஹி‍யோவிட்ட",
+    "nameTa": "‎தெஹி‍யோவிட்ட",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   },
   {
-    "id": 340,
     "nameEn": "Deraniyagala",
     "nameSi": "දැරණියගල",
-    "nameTa": "தெரணியகல",
+    "nameTa": "‎தெரணியகல",
     "districtEn": "Kegalle",
     "districtSi": "කෑගල්ල",
-    "districtTa": "‍‍‍‍கேகா‍லை",
+    "districtTa": "‍‎‍‍‍கேகா‍லை",
     "provinceEn": "Sabaragamuwa",
     "provinceSi": "සබරගමුව",
     "provinceTa": "சபரகமுவ"
   }
-];
+]

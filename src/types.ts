@@ -9,43 +9,57 @@ export interface District {
   provinceTa: string;
 }
 
-/** A Divisional Secretariat Division (DSD) */
+/** A Divisional Secretariat Division (DSD) with trilingual names */
 export interface DSD {
-  fid: number;
-  name: string;
-  district: string;
-  province: string;
-}
-
-/** A Grama Niladhari Division (GND) */
-export interface GND {
-  fid: number;
-  name: string;
-  district: string;
-}
-
-/** @internal Raw district record from districts data */
-export interface DistrictRaw {
   id: number;
-  name_en: string;
-  name_si: string;
-  name_ta: string;
-  province_en: string;
-  province_si: string;
-  province_ta: string;
+  nameEn: string;
+  nameSi: string;
+  nameTa: string;
+  districtEn: string;
+  districtSi: string;
+  districtTa: string;
+  provinceEn: string;
+  provinceSi: string;
+  provinceTa: string;
+  /** @deprecated Alias for nameEn */
+  name?: string;
+  /** @deprecated Alias for districtEn */
+  district?: string;
+  /** @deprecated Alias for provinceEn */
+  province?: string;
+  /** @deprecated Alias for id */
+  fid?: number;
 }
 
-/** @internal Raw DSD record from DSD data */
-export interface DSDRaw {
-  FID: number;
-  "DSD NAME": string;
-  "DISTRICT NAME": string;
-  PROVINCE: string;
+/** A Grama Niladhari Division (GND) with official codes and trilingual names */
+export interface GND {
+  id: number;
+  lifeCode: string;
+  gnCode: string;
+  mpaCode?: string;
+  nameEn: string;
+  nameSi: string;
+  nameTa: string;
+  dsdEn: string;
+  dsdSi: string;
+  dsdTa: string;
+  districtEn: string;
+  districtSi: string;
+  districtTa: string;
+  provinceEn: string;
+  provinceSi: string;
+  provinceTa: string;
+  /** @deprecated Alias for nameEn */
+  name?: string;
+  /** @deprecated Alias for districtEn */
+  district?: string;
+  /** @deprecated Alias for id */
+  fid?: number;
 }
 
-/** @internal Raw GND record from GND data */
-export interface GNDRaw {
-  FID: number;
-  "GND NAME": string;
-  "DISTRICT NAME": string;
+/** Province trilingual names */
+export interface ProvinceInfo {
+  nameEn: string;
+  nameSi: string;
+  nameTa: string;
 }
