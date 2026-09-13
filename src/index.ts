@@ -253,14 +253,27 @@ export function getGNDs(): GND[] {
   return gnds;
 }
 
+let _gndLifeCodeMap: Map<string, GND> | null = null;
+
+function getLifeCodeMap(): Map<string, GND> {
+  if (!_gndLifeCodeMap) {
+    _gndLifeCodeMap = new Map();
+    for (const g of gnds) {
+      _gndLifeCodeMap.set(g.lifeCode, g);
+    }
+  }
+  return _gndLifeCodeMap;
+}
+
 /**
  * Find a GND by official LIFe Code (e.g. "1-1-03-005").
+ * Uses O(1) Map lookup for maximum performance.
  * @param lifeCode - Exact LIFe code string
  * @returns Matching GND or undefined
  */
 export function getGNDByLifeCode(lifeCode: string): GND | undefined {
   const clean = lifeCode.trim();
-  return gnds.find((g) => g.lifeCode === clean);
+  return getLifeCodeMap().get(clean);
 }
 
 /**
@@ -385,26 +398,42 @@ export function getGNDsByProvince(province: string): GND[] {
   );
 }
 
+interface GNDSearchRecord {
+  gnd: GND;
+  searchStr: string;
+}
+
+let _gndSearchIndex: GNDSearchRecord[] | null = null;
+
+function getGNDSearchIndex(): GNDSearchRecord[] {
+  if (!_gndSearchIndex) {
+    _gndSearchIndex = gnds.map((g) => ({
+      gnd: g,
+      searchStr: `${g.nameEn}\0${g.nameSi}\0${g.nameTa}\0${g.gnCode}\0${g.lifeCode}\0${g.mpaCode || ""}`.toLowerCase(),
+    }));
+  }
+  return _gndSearchIndex;
+}
+
 /**
  * Search GNDs by partial name match (English, Sinhala, Tamil) or code.
- * Case-insensitive.
+ * Case-insensitive. Uses pre-indexed search strings for fast query processing.
  * @param query - Partial GND name or code to search
  * @returns Array of matching GND objects
  */
 export function searchGND(query: string): GND[] {
   const trimmed = query.trim();
+  if (!trimmed || trimmed.includes("\0")) return [];
   const lower = trimmed.toLowerCase();
-  if (!trimmed) return [];
 
-  return gnds.filter(
-    (g) =>
-      g.nameEn.toLowerCase().includes(lower) ||
-      g.nameSi.includes(trimmed) ||
-      g.nameTa.includes(trimmed) ||
-      g.gnCode.toLowerCase().includes(lower) ||
-      g.lifeCode.toLowerCase().includes(lower) ||
-      (g.mpaCode && g.mpaCode.toLowerCase().includes(lower))
-  );
+  const index = getGNDSearchIndex();
+  const results: GND[] = [];
+  for (let i = 0; i < index.length; i++) {
+    if (index[i].searchStr.includes(lower)) {
+      results.push(index[i].gnd);
+    }
+  }
+  return results;
 }
 
 /**
